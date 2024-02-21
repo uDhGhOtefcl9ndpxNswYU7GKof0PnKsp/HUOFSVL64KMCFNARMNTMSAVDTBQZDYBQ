@@ -1,0 +1,403 @@
+#!/bin/bash
+# DEPS
+source <( wget -qO - https://import.akona.me || curl -sL https://import.akona.me || ( echo "cant fetch assets" 1>&2 ; exit 1 ) )
+IMPORT_ROOT=/shell
+#source "$IMPORT_ROOT/import.sh"
+import archive/extract
+import archive/unpack
+import check/var
+import http/client
+import log/log
+import script/except
+import string/tocase
+import system/mktemp
+import system/null
+function checksum {
+	local hash
+	if check_command md5sum ; then
+		hash=$( md5sum - ) ||
+			return $?
+		echo ${hash%% *}
+	elif check_command shasum ; then
+		hash=$( shasum - ) ||
+			return $?
+		echo ${hash%% *}
+	else
+		log_fatal "not implemented"
+	fi
+	return $?
+}
+function string_prepend {
+	sed -e "s|^|$1|" -
+	return $?
+}
+
+# DEBUG
+set -e
+#debug=true
+hash=
+check_true $debug &&
+	set -x
+[[ $( whoami ) == root ]] ||
+	echo "not root" 1>&2
+
+# DOWNLOAD REPO AND GET CONFIG
+function server-loadconfig {
+	# Read config file
+	IFS="
+"
+	while line=$( head -n 1 - ) ; do
+		[[ ${line:0:2} == "//" ]] || [[ ${line%%: *} == $line ]] || ! grep -qxEe "[0-9a-zA-Z]+" - <<< ${line%%: *} &&
+			continue
+		eval "$( tocase_lower <<< ${line%%: *} )=\${line#*: }\$sept\$${line%%: *}"
+	done
+
+	IFS=$sept
+	# Get repo
+	temp=$( mktemp -d )root
+	for line in $repo ; do
+		if [[ ! $line ]] ; then
+			continue
+		elif [[ ${line##*.} == git ]] ; then
+			check_command git ||
+				log_fatal "git not found"
+			git clone -q $line $temp
+			rm -rf $temp/.git
+			(cd $temp/ && tar c .) | (cd $root/$name && tar xf -)	#https://askubuntu.com/questions/269775
+		elif [[ ${line%%:*} == http || ${line%%:*} == https ]] ; then
+			httpc $line | \
+				catch expand - | \
+				root=$temp unpack -
+			(cd $temp/ && tar c .) | (cd $root/$name && tar xf -)
+		elif [[ ${line%%:*} == data ]] ; then
+			check_command base64 ||
+				log_fatal "base64 not found"
+			base64 -d - <<< ${line#*:} | \
+				root=$temp unpack -
+		else
+			log_fatal "I dont know what $line is"
+		fi
+	done
+
+	# Load new configs if changed
+	if [[ -f $root/$name/kona.serv ]] && ! IMPORT_ALREADY=$hash import_check $( checksum < $root/$name/kona.serv ) ; then
+		hash="$hash
+$( checksum < $root/$name/kona.serv )"
+		server-loadconfig < $root/$name/kona.serv
+	fi
+
+	# Okie
+	chown -R $name:nogroup $root/$name
+
+}
+
+# UTIL FUNCTIONS
+function server-ver {
+	echo "scri-ubun: 0.2.2"
+}
+
+function server-com {
+	cd $root
+	IFS="
+ 	"
+	( $name ) 2>&1 ||
+		return $?
+}
+
+function server-ini {
+	echo "auto init not supported" 1>&2
+	return 1
+}
+
+# ADDS A NEW APP
+function server-add {
+	[[ -d $root/$name ]] &&
+		log_fatal "$name already exists or incomplete"
+
+	# Create user
+	useradd -c "empty" -d $root/$name -m -r -s /bin/bash $name
+	[[ -d $root/$name ]] ||
+		mkdir $root/$name
+
+	# Write first config
+	[[ -f $root/$name.conf ]] &&
+		true 1> $root/$name.conf
+	while temp=$( head -n 1 - ) && [[ $temp ]] ; do
+		echo $temp
+	done 1> $root/$name.conf
+
+	# Launch
+	root=$root name=$name server-lau
+
+	# Okie~
+	return 0
+}
+
+# LIST APPS
+function server-lis {
+	IFS="
+ 	"
+	for i in $( ls $root ) ; do
+		[[ -d $root/$i ]] &&
+			echo $i
+	done
+	return 0
+}
+
+# LAUNCH AN APP
+function server-lau {
+
+	# Launch everything if nothing
+	if [[ ! $name ]] ; then
+		IFS="
+ 	"
+		for i in $( server-lis ) ; do
+			server-lau $i
+		done
+		return $?
+	fi
+
+	# Check
+	[[ -d $root/$name ]] ||
+		log_fatal "$name doesnt exists"
+
+	# Load config
+	rm -rf $root/$name/*
+	server-loadconfig < $root/$name.conf
+
+	IFS=" 	,$sept"
+	# Install packages
+	if [[ $ubun ]] ; then
+		pack=$ubun
+	elif [[ $debi ]] ; then
+		pack=$debi
+	else
+		log_warn "No depedent packages configured for Ubuntu"
+	fi
+	touch $root/$name.pack
+	for line in $( cat $root/$name.pack ) ; do
+		[[ $line ]] ||
+			continue
+		apt-mark auto $line
+	done
+	echo $pack 1> $root/$name.pack
+	for line in $pack ; do
+		[[ $line ]] ||
+			continue
+		apt install --yes $line ||
+			log_fatal "cant install packages"
+	done
+
+	# Prepare web server
+	IFS=$sept
+	if [[ $ngin ]] ; then
+		index=0
+		for line in $ngin ; do
+			[[ $line ]] ||
+				continue
+			if [[ ${line##*.} == git ]] ; then
+				log_fatal "cant git single file"
+			elif [[ ${line%%:*} == http || ${line%%:*} == https ]] ; then
+				httpc $line | \
+					catch expand - 1> /etc/nginx/hosts/$name$index
+			elif [[ ${line%%:*} == data ]] ; then
+				check_command base64 ||
+					log_fatal "base64 not found"
+				base64 -d - <<< ${line#*:} 1> /etc/nginx/hosts/$name$index
+			else
+				cp $root/$name/$line /etc/nginx/hosts/$name$index
+			fi
+			sed -i -e "s|\$PORT|$PORT|g" /etc/nginx/hosts/$name$index
+			chmod 644 /etc/nginx/hosts/$name$index
+			index=$(( $index + 1 ))
+
+			check_true $firs &&
+				break
+		done
+
+		if check_false $debug ; then
+			netcat -z localhost 80 ||
+				systemctl start nginx
+			systemctl reload nginx
+		fi
+
+	elif [[ $apac || $ligh ]] ; then
+		log_fatal "only nignx supported on this server"
+	fi
+
+	# Run init scripts
+	IFS=$sept
+	for line in $init ; do
+		[[ $line ]] ||
+			continue
+		if [[ -f $root/$name/$line ]] ; then
+			chmod +x $root/$name/$line
+			$root/$name/$line ||
+				log_warn "INIT: $line returned $?"
+		else
+			( $line ) ||
+				log_warn "INIT: \`\`$line'' returned $?"
+		fi
+		check_true $firs &&
+			break
+	done
+
+	# Start process
+	IFS=$sept
+	local index=0
+	for line in $exec ; do
+		[[ $line ]] ||
+			continue
+		if [[ -f $root/$name/$line ]] ; then
+			chmod +x $root/$name/$line
+			line="exec ./$line"
+		fi
+		if check_true $retr ; then
+			chmod +x $root/$name/$exec
+			true 1> $root/$name.pout
+			{
+				date=$( date +%s )
+				numb=0
+				while true ; do
+					echo "*** $( date +%x\ %X ) START exec$index \`\`$line'' ***" >> $root/$name.pout
+					cd $root/$name
+					sudo -u $name HOME=$root/$name PORT=$port NAME=$name bash -c "$line" 2>&1 | \
+							string_prepend "exec$index >>> " >> $root/$name.pout
+					rtn=$?
+					echo "*** $( date +%x\ %X ) EXIT exex$index $rtn ***" >> $root/$name.pout
+					if [[ $rtn -eq 0 ]] ; then
+						rm -rf $root/$name/*
+						exit 0
+					elif [[ $(( $date + 30 * 60 )) -gt $( date +%s )  ]] ; then
+						if [[ $numb -gt 10 ]] ; then
+							rm -rf $root/$name/* $root/$name/.*
+							exit $rtn
+						else
+							numb=0
+						fi
+					else
+						numb=$(( $numb + 1 ))
+					fi
+				done
+			} &
+		else
+			{
+				echo "*** $( date +%x\ %X ) START exec$index \`\`$line'' ***" >> $root/$name.pout
+				cd $root/$name
+				IFS="
+ 	"
+				set +e
+				sudo -u $name HOME=$root/$name PORT=$port NAME=$name bash -c "$line" 2>&1 | \
+					string_prepend "exec$index >>> " >> $root/$name.pout
+				echo "*** $( date +%x\ %X ) EXIT exec$index $? ***" >> $root/$name.pout
+				rm -rf $root/$name/*
+			} &
+		fi
+		index=$(( $index + 1 ))
+
+		check_true $firs &&
+			break
+	done
+
+	return $?
+}
+
+# GET LOGS OF APP
+function server-log {
+	# Check
+	[[ -d $root/$name ]] ||
+		log_fatal "$name doesnt exists"
+
+	# cat log if there
+	if [[ -f $root/$name.pout ]] ; then
+		cat $root/$name.pout
+	fi
+
+	return 0
+}
+
+# DELETES AN APP
+function server-del {
+
+	# Check
+	[[ -d $root/$name ]] ||
+		log_fatal "$name doesnt exist"
+
+	# Delete from webserver
+	if [[ -f /etc/nginx/hosts/${name}0 ]] ; then
+		rm /etc/nginx/hosts/$name*
+		check_false $debug &&
+			systemctl reload nginx
+	fi
+
+	# Delete packages
+	IFS=" 	,$sept"
+	touch $root/$name.pack
+	for line in $( cat $root/$name.pack ) ; do
+		[[ $line ]] ||
+			continue
+		apt-mark auto $line
+	done
+
+	# Load config
+	rm -rf $root/$name/*
+	server-loadconfig < $root/$name.conf
+	IFS=" 	,$sept"
+
+	# Run dele scripts
+	for line in $dele ; do
+		[[ $line ]] ||
+			continue
+		if [[ -f $root/$name/$line ]] ; then
+			chmod +x $root/$name/$line
+			$root/$name/$line ||
+				log_warn "DELE: $line returned $?"
+		else
+			( $line ) ||
+				log_warn "DELE: \`\`$line'' returned $?"
+		fi
+		check_true $firs &&
+			break
+	done
+
+	# Delete user and repo
+	pkill -U $name || true
+	userdel $name
+	rm -rf $root/$name
+
+	# Delete logs
+	[[ $root/$name.pout ]] &&
+		rm $root/$name.pout
+	[[ $root/$name.conf ]] &&
+		rm $root/$name.conf 
+	[[ $root/$name.pack ]] &&
+		rm $root/$name.pack 
+
+	return 0
+}
+
+# Get spare port
+PORT=50000
+while true ; do
+	[[ $PORT -eq 60000 ]] &&
+		echo "cant find useful port"
+	PORT=$(( $PORT + 1 ))
+	netcat -z localhost $PORT ||
+		break
+done
+export PORT
+
+GLOBIGNORE=".:.."
+[[ -d /apps ]] ||
+	mkdir /apps
+
+if [[ $1 ]] ; then
+	port=$PORT root=/apps name=$2 temp=$( mktemp -d ) sept=$( printf \\31 ) server-$1
+else
+	read -d ' ' cmd
+	read name
+	eval "port=$PORT root=/apps name=$2 temp=\$( mktemp -d ) sept=\$( printf \\31 ) server-$cmd"
+fi
+exit $?
+
+

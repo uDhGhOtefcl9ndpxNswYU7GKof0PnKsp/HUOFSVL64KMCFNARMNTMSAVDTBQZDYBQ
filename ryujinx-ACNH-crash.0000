@@ -1,0 +1,57 @@
+kona@kona:~$ ryujinx 
+NOTE: PACKAGES libsdl2-dev libopenal-dev libsdl2-dev libalut-dev libalut-dev ALREADY INSTALLED
+Getting Ryujinx version 1.0.5292 from build kokplmgop5p0inpk LINUX ...
+00:00:00.005 |N| Application PrintSystemInfo: Ryujinx Version: 1.0.5292
+00:00:00.029 |N| Application PrintSystemInfo: Operating System: Linux 5.7.0-3-amd64 #1 SMP Debian 5.7.17-1 (2020-08-23) (X64)
+00:00:00.029 |N| Application PrintSystemInfo: CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+00:00:00.029 |N| Application PrintSystemInfo: Total RAM: 7883 MB
+00:00:00.030 |N| Application PrintSystemInfo: Logs Enabled: <None>
+00:00:00.300 |N| Application LoadApplication: Using Firmware Version: 10.0.2
+ATTENTION: default value of option glsl_zero_init overridden by environment.
+radeon: Failed to allocate virtual address for buffer:
+radeon:    size      : 65536 bytes
+radeon:    alignment : 4096 bytes
+radeon:    domains   : 4
+radeon:    va        : 0x0000000100000000
+radeon: Failed to deallocate virtual address for buffer:
+radeon:    size      : 65536 bytes
+radeon:    va        : 0x100000000
+radeon: Failed to allocate virtual address for buffer:
+radeon:    size      : 65536 bytes
+radeon:    alignment : 4096 bytes
+radeon:    domains   : 4
+radeon:    va        : 0x0000000100000000
+radeon: Failed to deallocate virtual address for buffer:
+radeon:    size      : 65536 bytes
+radeon:    va        : 0x100000000
+radeonsi: Failed to create a context.
+ATTENTION: default value of option glsl_zero_init overridden by environment.
+radeon: Failed to allocate virtual address for buffer:
+radeon:    size      : 65536 bytes
+radeon:    alignment : 4096 bytes
+radeon:    domains   : 4
+radeon:    va        : 0x0000000100000000
+radeon: Failed to deallocate virtual address for buffer:
+radeon:    size      : 65536 bytes
+radeon:    va        : 0x100000000
+radeon: Failed to allocate virtual address for buffer:
+radeon:    size      : 65536 bytes
+radeon:    alignment : 4096 bytes
+radeon:    domains   : 4
+radeon:    va        : 0x0000000100000000
+radeon: Failed to deallocate virtual address for buffer:
+radeon:    size      : 65536 bytes
+radeon:    va        : 0x100000000
+radeonsi: Failed to create a context.
+
+(Ryujinx:86410): Gdk-ERROR **: 00:52:17.704: The program 'Ryujinx' received an X Window System error.
+This probably reflects a bug in the program.
+The error was 'GLXBadFBConfig'.
+  (Details: serial 2429 error_code 167 request_code 152 (GLX) minor_code 34)
+  (Note to programmers: normally, X errors are reported asynchronously;
+   that is, you will receive the error a while after causing it.
+   To debug your program, run it with the GDK_SYNCHRONIZE environment
+   variable to change this behavior. You can then get a meaningful
+   backtrace from your debugger if you break on the gdk_x_error() function.)
+/home/kona/.exec/ryujinx: line 6: 86410 Aborted                 ./Ryujinx
+kona@kona:~$ 

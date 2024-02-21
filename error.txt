@@ -1,0 +1,27 @@
+kona@arcticjieer:~$ ryujinx 
+00:00:00.007 | Application Main: Ryujinx Version: 1.0.4345
+00:00:00.031 | Application Main: Operating System: Linux 5.5.0-2-amd64 #1 SMP Debian 5.5.17-1 (2020-04-15) (X64)
+00:00:00.031 | Application Main: CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+00:00:00.031 | Application Main: Total RAM: 7884 MB
+00:00:00.226 | Application LoadApplication: Loading as NSP.
+00:00:00.289 | Loader LoadExeFs: Loading rtld...
+00:00:00.291 | Loader LoadExeFs: Loading main...
+00:00:00.531 | Loader LoadExeFs: Loading subsdk0...
+00:00:00.564 | Loader LoadExeFs: Loading sdk...
+00:00:00.628 | ServiceTime InitializeLocationNameCache: TimeZoneBinary system title not found! TimeZone conversions will not work, provide the system archive to fix this error. (See https://github.com/Ryujinx/Ryujinx#requirements for more information)
+00:00:00.760 | Loader LoadStaticObjects: Loading image 0 at 0x0000000008000000...
+00:00:00.761 | Loader LoadStaticObjects: Loading image 1 at 0x0000000008004000...
+00:00:00.812 | Loader LoadStaticObjects: Loading image 2 at 0x000000000babb000...
+00:00:00.819 | Loader LoadStaticObjects: Loading image 3 at 0x000000000c1c8000...
+00:00:00.866 | Application EnsureSaveData: Ensuring required savedata exists.
+00:00:00.991 | Loader LoadNca: Application Loaded: Animal Crossing: New Horizons v1.0.0 [01006f8002326000] [64-bit]
+00:00:00.995 | GUI.WindowThread Hid InitController: Connected ControllerType Handheld to PlayerIndex Handheld
+00:00:01.203 | Application Glib_UnhandledException: Unhandled exception caught: System.InvalidCastException: Unable to cast object of type 'OpenTK.Platform.X11.X11WindowInfo' to type 'OpenTK.Platform.Linux.LinuxWindowInfo'.
+   at OpenTK.Platform.Linux.LinuxFactory.CreateGLContext(GraphicsMode mode, IWindowInfo window, IGraphicsContext shareContext, Boolean directRendering, Int32 major, Int32 minor, GraphicsContextFlags flags)
+   at OpenTK.Graphics.GraphicsContext..ctor(GraphicsMode mode, IWindowInfo window, IGraphicsContext shareContext, Int32 major, Int32 minor, GraphicsContextFlags flags)
+   at OpenTK.Graphics.GraphicsContext..ctor(GraphicsMode mode, IWindowInfo window, Int32 major, Int32 minor, GraphicsContextFlags flags)
+   at OpenTK.GLWidget.Initialize()
+   at OpenTK.GLWidget.OnDrawn(Context cr)
+   at Gtk.Widget.Drawn_cb(IntPtr inst, IntPtr cr)
+AL lib: (EE) alc_cleanup: 1 device not closed
+kona@arcticjieer:~$ 

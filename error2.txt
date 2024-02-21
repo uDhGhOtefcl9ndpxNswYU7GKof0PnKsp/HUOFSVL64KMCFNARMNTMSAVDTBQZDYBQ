@@ -1,0 +1,2152 @@
+kona@arcticjieer:~$ ryujinx 
+00:00:00.010 | Application Main: Ryujinx Version: 1.0.4345
+00:00:00.046 | Application Main: Operating System: Linux 5.5.0-2-amd64 #1 SMP Debian 5.5.17-1 (2020-04-15) (X64)
+00:00:00.046 | Application Main: CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+00:00:00.046 | Application Main: Total RAM: 7884 MB
+00:00:15.615 | Application HandleInstallerDialog: Installing firmware 9.2.0
+00:00:16.009 | Application HandleInstallerDialog: System version 9.2.0 successfully installed.
+00:00:00.238 | Application LoadApplication: Loading as NSP.
+00:00:00.297 | Loader LoadExeFs: Loading rtld...
+00:00:00.300 | Loader LoadExeFs: Loading main...
+00:00:01.083 | Loader LoadExeFs: Loading subsdk0...
+00:00:01.260 | Loader LoadExeFs: Loading sdk...
+00:00:01.725 | Loader LoadStaticObjects: Loading image 0 at 0x0000000008000000...
+00:00:01.728 | Loader LoadStaticObjects: Loading image 1 at 0x0000000008004000...
+00:00:01.813 | Loader LoadStaticObjects: Loading image 2 at 0x000000000bc84000...
+00:00:01.824 | Loader LoadStaticObjects: Loading image 3 at 0x000000000c391000...
+00:00:01.886 | Application EnsureSaveData: Ensuring required savedata exists.
+00:00:01.989 | Loader LoadNca: Application Loaded: Animal Crossing: New Horizons v1.2.0 [01006f8002326000] [64-bit]
+00:00:01.996 | GUI.WindowThread Hid InitController: Connected ControllerType Handheld to PlayerIndex Handheld
+00:00:02.507 | GUI.RenderLoop Gpu PrintGpuInformation: Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 520 (Skylake GT2)  (4.6 (Core Profile) Mesa 19.3.3)
+00:00:03.943 | ServiceAm GetAppletResourceUserId: Stubbed. 
+00:00:04.803 | ServiceAm AcquireForegroundRights: Stubbed. 
+00:00:04.857 | ServiceAm SetFocusHandlingMode: Stubbed. 
+00:00:04.934 | ServiceAm SetOutOfFocusSuspendingEnabled: Stubbed. 
+00:00:05.107 | HLE.HostThread.0 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:00:05.112 | HLE.HostThread.0 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:00:05.113 | HLE.HostThread.0 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:00:05.114 | ServicePctl Initialize: Service is already initialized!
+00:00:44.476 | HLE.HostThread.0 KernelSvc PrintResult: MapSharedMemory64 returned error InvalidMemRange.
+00:00:45.577 | ServiceNv FinishInitialize: Stubbed. 
+00:00:45.908 | SurfaceFlinger CreateLayerFromId: Creating layer 1
+00:00:47.236 | ServiceNv InitializeEx: Stubbed. 
+00:00:47.244 | ServiceNv GetVaRegions: Stubbed. 
+00:00:47.253 | ServiceNv GetVaRegions: Stubbed. 
+00:00:47.402 | ServiceNv Create: Created map 1 with size 0x00001000!
+00:00:47.473 | ServiceNv Create: Created map 2 with size 0x00010000!
+00:00:47.535 | ServiceNv GetActiveSlotMask: Stubbed. 
+00:00:47.561 | ServiceNv Create: Created map 3 with size 0x00063000!
+00:00:47.623 | ServiceNv Create: Created map 4 with size 0x00001000!
+00:00:47.657 | ServiceNv BindChannel: Stubbed. 
+00:00:47.660 | ServiceNv SetNvMapFd: Stubbed. 
+00:00:47.668 | ServiceNv AllocGpfifoEx2: Stubbed. 
+00:00:47.669 | ServiceNv AllocObjCtx: Stubbed. 
+00:00:47.672 | ServiceNv SetTimeout: Stubbed. 
+00:00:47.680 | ServiceNv SetErrorNotifier: Stubbed. 
+00:00:47.687 | ServiceNv SetUserData: Stubbed. 
+00:00:47.693 | ServiceNv SetTimeslice: Stubbed. 
+00:00:47.695 | ServiceNv Create: Created map 5 with size 0x00010000!
+00:00:47.750 | ServiceNv Create: Created map 6 with size 0x00049000!
+00:00:47.760 | ServiceNv ZcullBind: Stubbed. 
+00:00:48.121 | ServiceNv Create: Created map 7 with size 0x01950000!
+00:00:48.700 | ServiceNv Create: Created map 8 with size 0x00101000!
+00:00:48.705 | ServiceNv Create: Created map 9 with size 0x00100000!
+00:00:49.275 | ServiceHid ActivateNpadWithRevision: Stubbed. appletResourceUserId: 0 - revision: 3
+00:00:49.362 | ServiceHid SetSupportedNpadIdType: Stubbed. 9 Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Handheld
+00:00:49.382 | ServiceHid SetSupportedNpadStyleSet: Stubbed. appletResourceUserId: 0 - type: ProController, Handheld, JoyconPair, JoyconLeft, JoyconRight
+00:00:49.413 | ServiceHid ActivateMouse: Stubbed. appletResourceUserId: 0
+00:00:49.436 | ServiceHid ActivateKeyboard: Stubbed. appletResourceUserId: 0
+00:00:49.510 | ServiceHid SetNpadJoyHoldType: Stubbed. appletResourceUserId: 0 - JoyHold: Horizontal
+00:00:49.560 | ServiceHid ActivateTouchScreen: Stubbed. appletResourceUserId: 0
+00:00:49.688 | ServiceAm SetOperationModeChangedNotification: Stubbed. 
+00:00:49.692 | ServiceAm SetPerformanceModeChangedNotification: Stubbed. 
+00:00:49.696 | ServiceAm SetRestartMessageEnabled: Stubbed. 
+00:00:49.708 | ServiceAm LockExit: Stubbed. 
+00:00:50.107 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:00:50.996 | ServiceAcc InitializeApplicationInfo: Stubbed. unknown: 0
+00:00:51.108 | ServiceAcc IsUserAccountSwitchLocked: Stubbed. 
+00:00:52.965 | ServiceNv Create: Created map 10 with size 0x00002000!
+00:00:53.385 | ServiceNv Create: Created map 11 with size 0x00104000!
+00:00:53.712 | ServiceNv Create: Created map 12 with size 0x00003000!
+00:00:53.738 | ServiceNv Create: Created map 13 with size 0x00101000!
+00:00:53.756 | ServiceNv Create: Created map 14 with size 0x003a9000!
+00:00:54.804 | ServiceNv Create: Created map 15 with size 0x00004000!
+00:00:54.858 | ServiceNv Create: Created map 16 with size 0x00400000!
+00:00:54.867 | ServiceNv Create: Created map 17 with size 0x00010000!
+00:00:54.911 | ServiceNv ZbcSetTable: Stubbed. 
+00:00:54.911 | ServiceNv GetActiveSlotMask: Stubbed. 
+00:00:54.975 | ServiceNv Create: Created map 18 with size 0x00004000!
+00:00:55.120 | ServiceNv Create: Created map 19 with size 0x05600000!
+00:00:55.495 | ServiceNv Create: Created map 20 with size 0x00010000!
+00:00:55.511 | ServiceNv Create: Created map 21 with size 0x00400000!
+00:00:55.967 | ServiceNv Create: Created map 22 with size 0x00004000!
+00:00:56.175 | ServiceNv Create: Created map 23 with size 0x00004000!
+00:00:56.270 | ServiceNv Create: Created map 24 with size 0x00005000!
+00:00:56.339 | ServiceNv Create: Created map 25 with size 0x00004000!
+00:00:56.406 | ServiceNv Create: Created map 26 with size 0x00005000!
+00:00:56.515 | ServiceNv Create: Created map 27 with size 0x00004000!
+00:00:56.593 | ServiceNv Create: Created map 28 with size 0x00006000!
+00:00:56.775 | ServiceNv Create: Created map 29 with size 0x00004000!
+00:00:56.844 | ServiceNv Create: Created map 30 with size 0x00005000!
+00:00:56.959 | ServiceNv Create: Created map 31 with size 0x00009000!
+00:00:57.059 | ServiceNv Create: Created map 32 with size 0x00004000!
+00:00:57.077 | ServiceNv Create: Created map 33 with size 0x00004000!
+00:00:57.306 | ServiceNv Create: Created map 34 with size 0x01800000!
+00:00:57.504 | ServiceNv Create: Created map 35 with size 0x00004000!
+00:00:57.902 | ServiceNv Create: Created map 36 with size 0x00106000!
+00:00:57.977 | ServiceNv Create: Created map 37 with size 0x00083000!
+00:00:57.989 | ServiceNv Create: Created map 38 with size 0x00207000!
+00:00:58.234 | ServiceNv Create: Created map 39 with size 0x00132000!
+00:00:58.253 | ServiceNv Create: Created map 40 with size 0x0001f000!
+00:00:58.262 | ServiceNv Create: Created map 41 with size 0x001c3000!
+00:00:58.314 | ServiceNv Create: Created map 42 with size 0x000c9000!
+00:00:58.776 | ServiceNv Create: Created map 43 with size 0x0000c000!
+00:00:59.691 | ServiceNv Create: Created map 44 with size 0x0000b000!
+00:00:59.694 | ServiceNv Create: Created map 45 with size 0x00001000!
+00:00:59.697 | ServiceNv Create: Created map 46 with size 0x0002b000!
+00:00:59.909 | ServiceNv Create: Created map 47 with size 0x003c0000!
+00:01:00.026 | ServiceNv Create: Created map 48 with size 0x00080000!
+00:01:00.133 | ServiceNv Create: Created map 49 with size 0x00021000!
+00:01:00.420 | ServiceNv Create: Created map 50 with size 0x00040000!
+00:01:00.427 | ServiceNv Create: Created map 51 with size 0x00040000!
+00:01:00.436 | ServiceNv Create: Created map 52 with size 0x00040000!
+00:01:00.441 | ServiceNv Create: Created map 53 with size 0x00040000!
+00:01:00.456 | ServiceNv Create: Created map 54 with size 0x00040000!
+00:01:00.462 | ServiceNv Create: Created map 55 with size 0x00040000!
+00:01:00.745 | ServiceNv Create: Created map 56 with size 0x00001000!
+00:01:01.579 | ServiceAm GetMainAppletExpectedMasterVolume: Stubbed. 
+00:01:01.580 | ServiceAm GetLibraryAppletExpectedMasterVolume: Stubbed. 
+00:01:01.611 | ServiceAm SetExpectedMasterVolume: Stubbed. 
+00:01:01.887 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:01.962 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:02.038 | ServiceAudio StartAudioRenderer: Stubbed. 
+00:01:02.247 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:02.248 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:02.285 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.756 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:03.756 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.807 | ServiceAudio SetAudioDeviceOutputVolumeAuto: Stubbed. 
+00:01:03.807 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.808 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:03.808 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.808 | ServiceAudio SetAudioDeviceOutputVolumeAuto: Stubbed. 
+00:01:03.809 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.809 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:03.809 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.809 | ServiceAudio SetAudioDeviceOutputVolumeAuto: Stubbed. 
+00:01:03.809 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.822 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:03.823 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.823 | ServiceAudio QueryAudioDeviceOutputEvent: Stubbed. 
+00:01:03.824 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.828 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:03.829 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.842 | ServiceAudio GetActiveChannelCount: Stubbed. 
+00:01:03.843 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.855 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:03.856 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:03.885 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:05.723 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:05.725 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:05.726 | ServiceAudio SetAudioDeviceOutputVolumeAuto: Stubbed. 
+00:01:05.726 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:05.729 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:05.732 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:05.738 | ServiceAudio SetAudioDeviceOutputVolumeAuto: Stubbed. 
+00:01:05.739 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:05.758 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:05.758 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:05.759 | ServiceAudio SetAudioDeviceOutputVolumeAuto: Stubbed. 
+00:01:05.759 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:20.786 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:20.838 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.182 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.250 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.251 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.252 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.252 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.252 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.253 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.253 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.258 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.258 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.259 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.260 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.260 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.260 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.261 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.263 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.264 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.266 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.267 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.268 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.268 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.269 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.269 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.269 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.270 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.270 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.270 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.271 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.272 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.272 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.273 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.273 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.274 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.274 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.274 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.275 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.275 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.275 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.276 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.276 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.277 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.277 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.278 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.279 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.279 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.279 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.280 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.280 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.281 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.282 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.282 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.283 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.283 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.284 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.284 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.285 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.286 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.286 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.288 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.288 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.289 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.290 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.290 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.291 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.291 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.291 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:22.292 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:23.557 | ServiceNv Create: Created map 57 with size 0x00800000!
+00:01:26.297 | ServiceNv Create: Created map 58 with size 0x00010000!
+00:01:26.304 | ServiceNv Create: Created map 59 with size 0x00008000!
+00:01:26.311 | ServiceNv Create: Created map 60 with size 0x00001000!
+00:01:26.545 | ServiceNv Create: Created map 61 with size 0x00009000!
+00:01:26.759 | ServiceNv Create: Created map 62 with size 0x00003000!
+00:01:26.765 | ServiceNv Create: Created map 63 with size 0x00001000!
+00:01:26.785 | ServiceNv Create: Created map 64 with size 0x00001000!
+00:01:26.837 | ServiceNv Create: Created map 65 with size 0x00400000!
+00:01:29.953 | ServiceNv Create: Created map 66 with size 0x00982000!
+00:01:29.999 | ServiceNv Create: Created map 67 with size 0x0000c000!
+00:01:30.051 | ServiceNv Create: Created map 68 with size 0x00066000!
+00:01:30.123 | ServiceNv Create: Created map 69 with size 0x00802000!
+00:01:30.806 | ServiceNv Create: Created map 70 with size 0x0004a000!
+00:01:30.891 | ServiceNv Create: Created map 71 with size 0x004b5000!
+00:01:34.719 | ServiceNv Create: Created map 72 with size 0x01522000!
+00:01:34.733 | ServiceNv Create: Created map 73 with size 0x00008000!
+00:01:37.614 | ServiceNv Create: Created map 74 with size 0x003c0000!
+00:01:37.790 | ServiceHid SetNpadJoyHoldType: Stubbed. appletResourceUserId: 0 - JoyHold: Horizontal
+00:01:40.655 | ServiceNv Create: Created map 75 with size 0x00008000!
+00:01:41.185 | ServiceNv Create: Created map 76 with size 0x00001000!
+00:01:41.195 | ServiceNv Create: Created map 77 with size 0x00a15000!
+00:01:41.944 | ServiceNv Create: Created map 78 with size 0x00004000!
+00:01:41.944 | ServiceNv Create: Created map 79 with size 0x00004000!
+00:01:43.520 | ServiceNv Create: Created map 80 with size 0x00004000!
+00:01:43.531 | ServiceNv Create: Created map 81 with size 0x00005000!
+00:01:43.547 | ServiceNv Create: Created map 82 with size 0x00004000!
+00:01:43.689 | ServiceNv Create: Created map 83 with size 0x00004000!
+00:01:43.809 | ServiceNv Create: Created map 84 with size 0x00004000!
+00:01:43.832 | ServiceNv Create: Created map 85 with size 0x00004000!
+00:01:43.858 | ServiceNv Create: Created map 86 with size 0x00009000!
+00:01:43.885 | ServiceNv Create: Created map 87 with size 0x00005000!
+00:01:43.893 | ServiceNv Create: Created map 88 with size 0x00004000!
+00:01:43.939 | ServiceNv Create: Created map 89 with size 0x00004000!
+00:01:44.028 | ServiceNv Create: Created map 90 with size 0x00004000!
+00:01:44.101 | ServiceNv Create: Created map 91 with size 0x00004000!
+00:01:44.186 | ServiceNv Create: Created map 92 with size 0x00004000!
+00:01:44.274 | ServiceNv Create: Created map 93 with size 0x00004000!
+00:01:44.334 | ServiceNv Create: Created map 94 with size 0x00005000!
+00:01:44.366 | ServiceNv Create: Created map 95 with size 0x0000b000!
+00:01:44.395 | ServiceNv Create: Created map 96 with size 0x00005000!
+00:01:44.404 | ServiceNv Create: Created map 97 with size 0x00004000!
+00:01:44.424 | ServiceNv Create: Created map 98 with size 0x00004000!
+00:01:44.523 | ServiceNv Create: Created map 99 with size 0x00004000!
+00:01:44.527 | ServiceNv Create: Created map 100 with size 0x00004000!
+00:01:44.567 | ServiceNv Create: Created map 101 with size 0x00005000!
+00:01:44.604 | ServiceNv Create: Created map 102 with size 0x0000b000!
+00:01:44.624 | ServiceNv Create: Created map 103 with size 0x00004000!
+00:01:44.629 | ServiceNv Create: Created map 104 with size 0x00005000!
+00:01:44.654 | ServiceNv Create: Created map 105 with size 0x00004000!
+00:01:44.710 | ServiceNv Create: Created map 106 with size 0x00004000!
+00:01:44.770 | ServiceNv Create: Created map 107 with size 0x00004000!
+00:01:44.871 | ServiceNv Create: Created map 108 with size 0x00004000!
+00:01:44.905 | ServiceNv Create: Created map 109 with size 0x00004000!
+00:01:44.906 | ServiceNv Create: Created map 110 with size 0x00005000!
+00:01:44.933 | ServiceNv Create: Created map 111 with size 0x0000b000!
+00:01:44.952 | ServiceNv Create: Created map 112 with size 0x00005000!
+00:01:44.965 | ServiceNv Create: Created map 113 with size 0x00004000!
+00:01:45.058 | ServiceNv Create: Created map 114 with size 0x00004000!
+00:01:45.085 | ServiceNv Create: Created map 115 with size 0x00004000!
+00:01:45.192 | ServiceNv Create: Created map 116 with size 0x00004000!
+00:01:45.241 | ServiceNv Create: Created map 117 with size 0x00004000!
+00:01:45.244 | ServiceNv Create: Created map 118 with size 0x00005000!
+00:01:45.259 | ServiceNv Create: Created map 119 with size 0x0000b000!
+00:01:45.273 | ServiceNv Create: Created map 120 with size 0x00005000!
+00:01:45.283 | ServiceNv Create: Created map 121 with size 0x00004000!
+00:01:45.379 | ServiceNv Create: Created map 122 with size 0x00004000!
+00:01:45.423 | ServiceNv Create: Created map 123 with size 0x00004000!
+00:01:45.514 | ServiceNv Create: Created map 124 with size 0x00004000!
+00:01:45.541 | ServiceNv Create: Created map 125 with size 0x00005000!
+00:01:45.565 | ServiceNv Create: Created map 126 with size 0x0000b000!
+00:01:45.578 | ServiceNv Create: Created map 127 with size 0x00005000!
+00:01:45.610 | ServiceNv Create: Created map 128 with size 0x00004000!
+00:01:45.611 | ServiceNv Create: Created map 129 with size 0x00004000!
+00:01:45.684 | ServiceNv Create: Created map 130 with size 0x00004000!
+00:01:45.701 | ServiceNv Create: Created map 131 with size 0x00004000!
+00:01:45.770 | ServiceNv Create: Created map 132 with size 0x00004000!
+00:01:45.776 | ServiceNv Create: Created map 133 with size 0x00004000!
+00:01:45.808 | ServiceNv Create: Created map 134 with size 0x00005000!
+00:01:45.816 | ServiceNv Create: Created map 135 with size 0x0000b000!
+00:01:45.831 | ServiceNv Create: Created map 136 with size 0x00004000!
+00:01:45.836 | ServiceNv Create: Created map 137 with size 0x00005000!
+00:01:45.872 | ServiceNv Create: Created map 138 with size 0x00004000!
+00:01:45.951 | ServiceNv Create: Created map 139 with size 0x00004000!
+00:01:45.973 | ServiceNv Create: Created map 140 with size 0x00005000!
+00:01:45.982 | ServiceNv Create: Created map 141 with size 0x0000b000!
+00:01:45.999 | ServiceNv Create: Created map 142 with size 0x00001000!
+00:01:46.002 | ServiceNv Create: Created map 143 with size 0x00004000!
+00:01:46.005 | ServiceNv Create: Created map 144 with size 0x00004000!
+00:01:46.047 | ServiceNv Create: Created map 145 with size 0x00053000!
+00:01:46.087 | ServiceNv Create: Created map 146 with size 0x00004000!
+00:01:46.110 | ServiceNv Create: Created map 147 with size 0x00004000!
+00:01:46.207 | ServiceNv Create: Created map 148 with size 0x00004000!
+00:01:46.303 | ServiceNv Create: Created map 149 with size 0x00004000!
+00:01:46.347 | ServiceNv Create: Created map 150 with size 0x00004000!
+00:01:46.400 | ServiceNv Create: Created map 151 with size 0x00004000!
+00:01:46.479 | ServiceNv Create: Created map 152 with size 0x00005000!
+00:01:46.488 | ServiceNv Create: Created map 153 with size 0x00004000!
+00:01:46.509 | ServiceNv Create: Created map 154 with size 0x0000b000!
+00:01:46.557 | ServiceNv Create: Created map 155 with size 0x00071000!
+00:01:46.578 | ServiceNv Create: Created map 156 with size 0x00004000!
+00:01:46.582 | ServiceNv Create: Created map 157 with size 0x00004000!
+00:01:46.733 | ServiceNv Create: Created map 158 with size 0x00004000!
+00:01:46.738 | ServiceNv Create: Created map 159 with size 0x00004000!
+00:01:46.844 | ServiceNv Create: Created map 160 with size 0x00004000!
+00:01:46.854 | ServiceNv Create: Created map 161 with size 0x00004000!
+00:01:46.962 | ServiceNv Create: Created map 162 with size 0x00004000!
+00:01:47.012 | ServiceNv Create: Created map 163 with size 0x00004000!
+00:01:47.069 | ServiceNv Create: Created map 164 with size 0x00004000!
+00:01:47.112 | ServiceNv Create: Created map 165 with size 0x00004000!
+00:01:47.151 | ServiceNv Create: Created map 166 with size 0x00004000!
+00:01:47.300 | ServiceNv Create: Created map 167 with size 0x00004000!
+00:01:47.314 | ServiceNv Create: Created map 168 with size 0x00004000!
+00:01:47.425 | ServiceNv Create: Created map 169 with size 0x00004000!
+00:01:47.437 | ServiceNv Create: Created map 170 with size 0x00004000!
+00:01:47.513 | ServiceNv Create: Created map 171 with size 0x00004000!
+00:01:47.566 | ServiceNv Create: Created map 172 with size 0x00004000!
+00:01:47.598 | ServiceNv Create: Created map 173 with size 0x00004000!
+00:01:47.669 | ServiceNv Create: Created map 174 with size 0x00004000!
+00:01:47.695 | ServiceNv Create: Created map 175 with size 0x00004000!
+00:01:47.760 | ServiceNv Create: Created map 176 with size 0x00004000!
+00:01:47.782 | ServiceNv Create: Created map 177 with size 0x00004000!
+00:01:47.918 | ServiceNv Create: Created map 178 with size 0x00004000!
+00:01:47.952 | ServiceNv Create: Created map 179 with size 0x00004000!
+00:01:47.986 | ServiceNv Create: Created map 180 with size 0x00004000!
+00:01:48.073 | ServiceNv Create: Created map 181 with size 0x00004000!
+00:01:48.108 | ServiceNv Create: Created map 182 with size 0x00004000!
+00:01:48.187 | ServiceNv Create: Created map 183 with size 0x00004000!
+00:01:48.308 | ServiceNv Create: Created map 184 with size 0x00004000!
+00:01:48.310 | ServiceNv Create: Created map 185 with size 0x00004000!
+00:01:48.420 | ServiceNv Create: Created map 186 with size 0x00016000!
+00:01:48.457 | ServiceNv Create: Created map 187 with size 0x00040000!
+00:01:48.461 | ServiceNv Create: Created map 188 with size 0x00004000!
+00:01:48.500 | ServiceNv Create: Created map 189 with size 0x00040000!
+00:01:48.519 | ServiceNv Create: Created map 190 with size 0x00004000!
+00:01:48.571 | ServiceNv Create: Created map 191 with size 0x00004000!
+00:01:48.607 | ServiceNv Create: Created map 192 with size 0x00004000!
+00:01:48.663 | ServiceNv Create: Created map 193 with size 0x00004000!
+00:01:48.676 | ServiceNv Create: Created map 194 with size 0x00004000!
+00:01:48.767 | ServiceNv Create: Created map 195 with size 0x00004000!
+00:01:48.773 | ServiceNv Create: Created map 196 with size 0x00004000!
+00:01:48.827 | ServiceNv Create: Created map 197 with size 0x00004000!
+00:01:48.849 | ServiceNv Create: Created map 198 with size 0x00004000!
+00:01:48.904 | ServiceNv Create: Created map 199 with size 0x00004000!
+00:01:48.921 | ServiceNv Create: Created map 200 with size 0x00004000!
+00:01:48.985 | ServiceNv Create: Created map 201 with size 0x00004000!
+00:01:48.994 | ServiceNv Create: Created map 202 with size 0x00004000!
+00:01:49.075 | ServiceNv Create: Created map 203 with size 0x00004000!
+00:01:49.093 | ServiceNv Create: Created map 204 with size 0x00004000!
+00:01:49.137 | ServiceNv Create: Created map 205 with size 0x00004000!
+00:01:49.173 | ServiceNv Create: Created map 206 with size 0x00004000!
+00:01:49.250 | ServiceNv Create: Created map 207 with size 0x00004000!
+00:01:49.289 | ServiceNv Create: Created map 208 with size 0x00004000!
+00:01:49.310 | ServiceNv Create: Created map 209 with size 0x0001c000!
+00:01:49.345 | ServiceNv Create: Created map 210 with size 0x00043000!
+00:01:49.349 | ServiceNv Create: Created map 211 with size 0x00004000!
+00:01:49.405 | ServiceNv Create: Created map 212 with size 0x00004000!
+00:01:49.529 | ServiceNv Create: Created map 213 with size 0x00004000!
+00:01:49.652 | ServiceNv Create: Created map 214 with size 0x00004000!
+00:01:49.804 | ServiceNv Create: Created map 215 with size 0x00004000!
+00:01:49.951 | ServiceNv Create: Created map 216 with size 0x00004000!
+00:01:50.052 | ServiceNv Create: Created map 217 with size 0x00004000!
+00:01:50.179 | ServiceNv Create: Created map 218 with size 0x00004000!
+00:01:50.291 | ServiceNv Create: Created map 219 with size 0x00004000!
+00:01:50.414 | ServiceNv Create: Created map 220 with size 0x00004000!
+00:01:50.436 | ServiceNv Create: Created map 221 with size 0x00016000!
+00:01:50.457 | ServiceNv Create: Created map 222 with size 0x00034000!
+00:01:50.612 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:55.877 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:55.878 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:55.879 | ServiceAudio SetAudioDeviceOutputVolumeAuto: Stubbed. 
+00:01:55.885 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:55.896 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:55.904 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:55.904 | ServiceAudio SetAudioDeviceOutputVolumeAuto: Stubbed. 
+00:01:55.904 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:55.905 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:01:55.906 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:01:55.906 | ServiceAudio SetAudioDeviceOutputVolumeAuto: Stubbed. 
+00:01:55.907 | HLE.HostThread.4 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:19.844 | ServiceNv Create: Created map 223 with size 0x00013000!
+00:02:22.064 | ServiceNv Create: Created map 224 with size 0x00151000!
+00:02:22.118 | ServiceNv Create: Created map 225 with size 0x00001000!
+00:02:22.227 | ServiceNv Create: Created map 226 with size 0x00002000!
+00:02:22.271 | ServiceNv Create: Created map 227 with size 0x0000c000!
+00:02:22.318 | ServiceNv Create: Created map 228 with size 0x00004000!
+00:02:22.739 | ServiceNv Create: Created map 229 with size 0x00006000!
+00:02:22.772 | ServiceNv Create: Created map 230 with size 0x00004000!
+00:02:22.810 | ServiceNv Create: Created map 231 with size 0x0003b000!
+00:02:22.828 | ServiceNv Create: Created map 232 with size 0x00004000!
+00:02:22.991 | ServiceNv Create: Created map 233 with size 0x0000b000!
+00:02:23.015 | ServiceNv Create: Created map 234 with size 0x00002000!
+00:02:23.043 | ServiceNv Create: Created map 235 with size 0x00013000!
+00:02:23.090 | ServiceNv Create: Created map 236 with size 0x00007000!
+00:02:23.105 | ServiceNv Create: Created map 237 with size 0x00002000!
+00:02:23.151 | ServiceNv Create: Created map 238 with size 0x00005000!
+00:02:23.170 | ServiceNv Create: Created map 239 with size 0x00002000!
+00:02:23.292 | ServiceNv Create: Created map 240 with size 0x00003000!
+00:02:23.316 | ServiceNv Create: Created map 241 with size 0x00004000!
+00:02:33.869 | ServiceNv Create: Created map 242 with size 0x0002a000!
+00:02:33.875 | ServiceNv Create: Created map 243 with size 0x00002000!
+00:02:33.918 | ServiceNv Create: Created map 244 with size 0x00001000!
+00:02:34.242 | ServiceNv Create: Created map 245 with size 0x00040000!
+00:02:34.261 | ServiceNv Create: Created map 246 with size 0x00005000!
+00:02:34.375 | ServiceNv Create: Created map 247 with size 0x000ea000!
+00:02:34.434 | ServiceNv Create: Created map 248 with size 0x00009000!
+00:02:34.558 | ServiceNv Create: Created map 249 with size 0x00002000!
+00:02:35.480 | ServiceNv Create: Created map 250 with size 0x00076000!
+00:02:35.498 | ServiceNv Create: Created map 251 with size 0x00003000!
+00:02:35.576 | ServiceNv Create: Created map 252 with size 0x00011000!
+00:02:35.585 | ServiceNv Create: Created map 253 with size 0x00003000!
+00:02:35.648 | ServiceNv Create: Created map 254 with size 0x00011000!
+00:02:35.661 | ServiceNv Create: Created map 255 with size 0x00003000!
+00:02:35.718 | ServiceNv Create: Created map 256 with size 0x00018000!
+00:02:35.953 | ServiceNv Create: Created map 257 with size 0x00093000!
+00:02:35.967 | ServiceNv Create: Created map 258 with size 0x00003000!
+00:02:36.168 | ServiceNv Create: Created map 259 with size 0x00004000!
+00:02:36.328 | ServiceNv Create: Created map 260 with size 0x00004000!
+00:02:37.079 | ServiceNv Create: Created map 261 with size 0x00014000!
+00:02:37.105 | ServiceNv Create: Created map 262 with size 0x00005000!
+00:02:37.154 | ServiceNv Create: Created map 263 with size 0x00001000!
+00:02:37.168 | ServiceNv Create: Created map 264 with size 0x00003000!
+00:02:37.331 | ServiceNv Create: Created map 265 with size 0x00029000!
+00:02:37.338 | ServiceNv Create: Created map 266 with size 0x00002000!
+00:02:37.476 | ServiceNv Create: Created map 267 with size 0x0002a000!
+00:02:37.505 | ServiceNv Create: Created map 268 with size 0x00002000!
+00:02:37.524 | ServiceNv Create: Created map 269 with size 0x00001000!
+00:02:37.810 | ServiceNv Create: Created map 270 with size 0x00021000!
+00:02:37.834 | ServiceNv Create: Created map 271 with size 0x00005000!
+00:02:38.030 | ServiceNv Create: Created map 272 with size 0x00061000!
+00:02:38.060 | ServiceNv Create: Created map 273 with size 0x00002000!
+00:02:38.117 | ServiceNv Create: Created map 274 with size 0x00001000!
+00:02:38.125 | ServiceNv Create: Created map 275 with size 0x00003000!
+00:02:38.145 | ServiceNv Create: Created map 276 with size 0x00005000!
+00:02:38.175 | ServiceNv Create: Created map 277 with size 0x00004000!
+00:02:38.907 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.909 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.910 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.911 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.912 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.913 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.914 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.918 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.926 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.945 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.946 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.946 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.947 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.948 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.948 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.949 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.949 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:38.950 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.009 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.117 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.119 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.137 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.137 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.138 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.138 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.140 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.141 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.141 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.143 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.143 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.145 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.146 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.147 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.147 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.148 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.149 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.151 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.174 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.183 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.184 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.186 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.187 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.188 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.191 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.192 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.192 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.194 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.195 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.197 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.199 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.201 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.201 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.202 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.203 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.203 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.204 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.205 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.205 | HLE.HostThread.43 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:02:39.246 | ServiceNv Create: Created map 278 with size 0x00200000!
+00:02:39.348 | ServiceNv Create: Created map 279 with size 0x00009000!
+00:02:39.387 | ServiceNv Create: Created map 280 with size 0x00003000!
+00:02:39.433 | ServiceNv Create: Created map 281 with size 0x00001000!
+00:02:39.467 | ServiceNv Create: Created map 282 with size 0x00001000!
+00:02:39.519 | ServiceNv Create: Created map 283 with size 0x00266000!
+00:02:39.703 | ServiceNv Create: Created map 284 with size 0x0000d000!
+00:02:39.718 | ServiceNv Create: Created map 285 with size 0x0000a000!
+00:02:41.174 | ServiceNv Create: Created map 286 with size 0x00001000!
+00:02:41.214 | ServiceNv Create: Created map 287 with size 0x00002000!
+00:02:41.229 | ServiceNv Create: Created map 288 with size 0x00021000!
+00:02:41.251 | ServiceNv Create: Created map 289 with size 0x00003000!
+00:02:41.258 | ServiceNv Create: Created map 290 with size 0x00003000!
+00:02:41.270 | ServiceNv Create: Created map 291 with size 0x00003000!
+00:02:41.306 | ServiceNv Create: Created map 292 with size 0x00003000!
+00:02:41.314 | ServiceNv Create: Created map 293 with size 0x00001000!
+00:02:41.327 | ServiceNv Create: Created map 294 with size 0x00002000!
+00:02:42.246 | ServiceNv Create: Created map 295 with size 0x00001000!
+00:02:42.256 | ServiceNv Create: Created map 296 with size 0x00001000!
+00:02:42.261 | ServiceNv Create: Created map 297 with size 0x00004000!
+00:02:42.284 | ServiceNv Create: Created map 298 with size 0x00003000!
+00:02:42.304 | ServiceNv Create: Created map 299 with size 0x00001000!
+00:02:42.316 | ServiceNv Create: Created map 300 with size 0x0000b000!
+00:02:42.333 | ServiceNv Create: Created map 301 with size 0x00001000!
+00:02:42.342 | ServiceNv Create: Created map 302 with size 0x00001000!
+00:02:42.365 | ServiceNv Create: Created map 303 with size 0x00001000!
+00:02:42.466 | ServiceNv Create: Created map 304 with size 0x00005000!
+00:02:43.175 | ServiceNv Create: Created map 305 with size 0x00001000!
+00:02:43.185 | ServiceNv Create: Created map 306 with size 0x00001000!
+00:02:43.205 | ServiceNv Create: Created map 307 with size 0x00002000!
+00:02:43.218 | ServiceNv Create: Created map 308 with size 0x00001000!
+00:02:43.233 | ServiceNv Create: Created map 309 with size 0x00001000!
+00:02:43.242 | ServiceNv Create: Created map 310 with size 0x00001000!
+00:02:43.276 | ServiceNv Create: Created map 311 with size 0x00001000!
+00:02:43.294 | ServiceNv Create: Created map 312 with size 0x00001000!
+00:02:43.836 | ServiceNv Create: Created map 313 with size 0x00001000!
+00:02:43.856 | ServiceNv Create: Created map 314 with size 0x00002000!
+00:02:44.003 | ServiceNv Create: Created map 315 with size 0x00001000!
+00:02:44.107 | ServiceNv Create: Created map 316 with size 0x00051000!
+00:02:44.119 | ServiceNv Create: Created map 317 with size 0x00002000!
+00:02:44.188 | ServiceNv Create: Created map 318 with size 0x00022000!
+00:02:44.201 | ServiceNv Create: Created map 319 with size 0x00003000!
+00:02:44.253 | ServiceNv Create: Created map 320 with size 0x00017000!
+00:02:44.337 | ServiceNv Create: Created map 321 with size 0x00001000!
+00:02:44.378 | ServiceNv Create: Created map 322 with size 0x00024000!
+00:02:44.456 | ServiceNv Create: Created map 323 with size 0x00044000!
+00:02:44.476 | ServiceNv Create: Created map 324 with size 0x00002000!
+00:02:44.609 | ServiceNv Create: Created map 325 with size 0x00002000!
+00:02:44.726 | ServiceNv Create: Created map 326 with size 0x00002000!
+00:02:44.746 | ServiceNv Create: Created map 327 with size 0x00004000!
+00:02:44.776 | ServiceNv Create: Created map 328 with size 0x00009000!
+00:02:44.792 | ServiceNv Create: Created map 329 with size 0x00004000!
+00:02:45.104 | ServiceNv Create: Created map 330 with size 0x00008000!
+00:02:45.135 | ServiceNv Create: Created map 331 with size 0x00005000!
+00:02:45.190 | ServiceNv Create: Created map 332 with size 0x0000a000!
+00:02:45.212 | ServiceNv Create: Created map 333 with size 0x00007000!
+00:02:45.250 | ServiceNv Create: Created map 334 with size 0x00002000!
+00:02:45.262 | ServiceNv Create: Created map 335 with size 0x00002000!
+00:02:45.272 | ServiceNv Create: Created map 336 with size 0x00004000!
+00:02:45.317 | ServiceNv Create: Created map 337 with size 0x0000a000!
+00:02:45.340 | ServiceNv Create: Created map 338 with size 0x00004000!
+00:02:45.374 | ServiceNv Create: Created map 339 with size 0x00002000!
+00:02:45.459 | ServiceNv Create: Created map 340 with size 0x00040000!
+00:02:45.473 | ServiceNv Create: Created map 341 with size 0x00005000!
+00:02:45.481 | ServiceNv Create: Created map 342 with size 0x00003000!
+00:02:45.506 | ServiceNv Create: Created map 343 with size 0x0000c000!
+00:02:45.522 | ServiceNv Create: Created map 344 with size 0x00002000!
+00:02:45.533 | ServiceNv Create: Created map 345 with size 0x00004000!
+00:02:45.607 | ServiceNv Create: Created map 346 with size 0x0001c000!
+00:02:45.619 | ServiceNv Create: Created map 347 with size 0x00004000!
+00:02:45.662 | ServiceNv Create: Created map 348 with size 0x00004000!
+00:02:45.688 | ServiceNv Create: Created map 349 with size 0x00002000!
+00:02:45.800 | ServiceNv Create: Created map 350 with size 0x00003000!
+00:02:47.044 | ServiceNv Create: Created map 351 with size 0x0001d000!
+00:02:47.071 | ServiceNv Create: Created map 352 with size 0x00003000!
+00:02:47.334 | ServiceNv Create: Created map 353 with size 0x0000a000!
+00:02:47.447 | ServiceNv Create: Created map 354 with size 0x0000c000!
+00:02:47.519 | ServiceNv Create: Created map 355 with size 0x00001000!
+00:02:47.534 | ServiceNv Create: Created map 356 with size 0x00003000!
+00:02:47.716 | ServiceNv Create: Created map 357 with size 0x0000f000!
+00:02:47.748 | ServiceNv Create: Created map 358 with size 0x00002000!
+00:02:48.229 | ServiceNv Create: Created map 359 with size 0x00007000!
+00:02:48.334 | ServiceNv Create: Created map 360 with size 0x00013000!
+00:02:48.362 | ServiceNv Create: Created map 361 with size 0x00004000!
+00:02:48.730 | ServiceNv Create: Created map 362 with size 0x00004000!
+00:02:48.901 | ServiceNv Create: Created map 363 with size 0x00003000!
+00:02:48.914 | ServiceNv Create: Created map 364 with size 0x00001000!
+00:02:50.009 | ServiceNv Create: Created map 365 with size 0x00004000!
+00:02:50.017 | ServiceNv Create: Created map 366 with size 0x00002000!
+00:03:29.392 | ServiceNs CountAddOnContent: Stubbed. 
+00:03:46.012 | ServiceAm SetOperationModeChangedNotification: Stubbed. 
+00:03:46.013 | ServiceAm SetPerformanceModeChangedNotification: Stubbed. 
+00:03:47.467 | ServiceHid StartSixAxisSensor: Stubbed. appletResourceUserId: 0 - sixAxisSensorHandle: 139268
+00:03:52.874 | ServiceNv Create: Created map 367 with size 0x00018000!
+00:03:53.242 | ServiceNv Create: Created map 368 with size 0x00040000!
+00:03:53.273 | ServiceNv Create: Created map 369 with size 0x00040000!
+00:03:53.379 | ServiceNv Create: Created map 370 with size 0x00040000!
+00:03:53.432 | ServiceNv Create: Created map 371 with size 0x00040000!
+00:03:53.476 | ServiceNv Create: Created map 372 with size 0x00040000!
+00:03:53.483 | ServiceNv Create: Created map 373 with size 0x00040000!
+00:03:53.578 | ServiceNv Create: Created map 374 with size 0x00040000!
+00:03:53.634 | ServiceNv Create: Created map 375 with size 0x00040000!
+00:03:53.658 | ServiceNv Create: Created map 376 with size 0x00040000!
+00:03:53.715 | ServiceNv Create: Created map 377 with size 0x00040000!
+00:03:53.742 | ServiceNv Create: Created map 378 with size 0x00040000!
+00:03:53.763 | ServiceNv Create: Created map 379 with size 0x00040000!
+00:03:53.807 | ServiceNv Create: Created map 380 with size 0x00040000!
+00:03:53.859 | ServiceNv Create: Created map 381 with size 0x00040000!
+00:03:53.890 | ServiceNv Create: Created map 382 with size 0x00040000!
+00:03:53.915 | ServiceNv Create: Created map 383 with size 0x00040000!
+00:03:53.962 | ServiceNv Create: Created map 384 with size 0x00040000!
+00:03:54.046 | ServiceNv Create: Created map 385 with size 0x00040000!
+00:03:54.110 | ServiceNv Create: Created map 386 with size 0x00040000!
+00:03:54.185 | ServiceNv Create: Created map 387 with size 0x00040000!
+00:03:54.240 | ServiceNv Create: Created map 388 with size 0x00040000!
+00:03:54.291 | ServiceNv Create: Created map 389 with size 0x00040000!
+00:03:54.306 | ServiceNv Create: Created map 390 with size 0x00040000!
+00:03:54.329 | ServiceNv Create: Created map 391 with size 0x00040000!
+00:03:54.351 | ServiceNv Create: Created map 392 with size 0x00040000!
+00:03:54.408 | ServiceNv Create: Created map 393 with size 0x00040000!
+00:03:54.470 | ServiceNv Create: Created map 394 with size 0x00040000!
+00:03:54.525 | ServiceNv Create: Created map 395 with size 0x00040000!
+00:03:54.543 | ServiceNv Create: Created map 396 with size 0x00040000!
+00:03:54.597 | ServiceNv Create: Created map 397 with size 0x00040000!
+00:03:54.640 | ServiceNv Create: Created map 398 with size 0x00040000!
+00:03:54.673 | ServiceNv Create: Created map 399 with size 0x00040000!
+00:03:54.718 | ServiceNv Create: Created map 400 with size 0x00040000!
+00:03:54.776 | ServiceNv Create: Created map 401 with size 0x00040000!
+00:03:54.811 | ServiceNv Create: Created map 402 with size 0x00040000!
+00:03:54.895 | ServiceNv Create: Created map 403 with size 0x00040000!
+00:03:54.962 | ServiceNv Create: Created map 404 with size 0x00040000!
+00:03:55.035 | ServiceNv Create: Created map 405 with size 0x00040000!
+00:03:55.053 | ServiceNv Create: Created map 406 with size 0x00040000!
+00:03:55.096 | ServiceNv Create: Created map 407 with size 0x00040000!
+00:03:55.150 | ServiceNv Create: Created map 408 with size 0x00040000!
+00:03:55.159 | ServiceNv Create: Created map 409 with size 0x00040000!
+00:03:55.171 | ServiceNv Create: Created map 410 with size 0x00040000!
+00:03:55.218 | ServiceNv Create: Created map 411 with size 0x00040000!
+00:03:55.240 | ServiceNv Create: Created map 412 with size 0x00040000!
+00:03:55.251 | ServiceNv Create: Created map 413 with size 0x00040000!
+00:03:55.334 | ServiceNv Create: Created map 414 with size 0x00040000!
+00:03:55.373 | ServiceNv Create: Created map 415 with size 0x00040000!
+00:03:55.417 | ServiceNv Create: Created map 416 with size 0x00040000!
+00:03:55.445 | ServiceNv Create: Created map 417 with size 0x00040000!
+00:03:55.498 | ServiceNv Create: Created map 418 with size 0x00010000!
+00:03:55.519 | ServiceNv Create: Created map 419 with size 0x00010000!
+00:03:55.586 | ServiceNv Create: Created map 420 with size 0x00010000!
+00:03:55.595 | ServiceNv Create: Created map 421 with size 0x00010000!
+00:03:55.667 | ServiceNv Create: Created map 422 with size 0x00010000!
+00:03:55.731 | ServiceNv Create: Created map 423 with size 0x00010000!
+00:03:55.847 | ServiceNv Create: Created map 424 with size 0x00010000!
+00:03:55.950 | ServiceNv Create: Created map 425 with size 0x00010000!
+00:03:56.024 | ServiceNv Create: Created map 426 with size 0x00010000!
+00:03:56.106 | ServiceNv Create: Created map 427 with size 0x00010000!
+00:03:56.156 | ServiceNv Create: Created map 428 with size 0x00010000!
+00:03:56.223 | ServiceNv Create: Created map 429 with size 0x00010000!
+00:03:56.274 | ServiceNv Create: Created map 430 with size 0x00010000!
+00:03:56.333 | ServiceNv Create: Created map 431 with size 0x00010000!
+00:03:56.417 | ServiceNv Create: Created map 432 with size 0x00010000!
+00:03:56.583 | ServiceNv Create: Created map 433 with size 0x00010000!
+00:03:56.612 | ServiceNv Create: Created map 434 with size 0x00010000!
+00:03:56.684 | ServiceNv Create: Created map 435 with size 0x00010000!
+00:03:56.732 | ServiceNv Create: Created map 436 with size 0x00010000!
+00:03:56.766 | ServiceNv Create: Created map 437 with size 0x00010000!
+00:03:56.794 | ServiceNv Create: Created map 438 with size 0x00010000!
+00:03:56.870 | ServiceNv Create: Created map 439 with size 0x00010000!
+00:03:57.126 | ServiceNv Create: Created map 440 with size 0x00010000!
+00:03:57.188 | ServiceNv Create: Created map 441 with size 0x00010000!
+00:03:57.237 | ServiceNv Create: Created map 442 with size 0x00010000!
+00:03:57.390 | ServiceNv Create: Created map 443 with size 0x00010000!
+00:03:57.445 | ServiceNv Create: Created map 444 with size 0x00010000!
+00:03:57.471 | ServiceNv Create: Created map 445 with size 0x00010000!
+00:03:57.527 | ServiceNv Create: Created map 446 with size 0x00010000!
+00:03:57.576 | ServiceNv Create: Created map 447 with size 0x00010000!
+00:03:57.595 | ServiceNv Create: Created map 448 with size 0x00010000!
+00:03:57.644 | ServiceNv Create: Created map 449 with size 0x00010000!
+00:03:57.685 | ServiceNv Create: Created map 450 with size 0x00010000!
+00:03:57.721 | ServiceNv Create: Created map 451 with size 0x00010000!
+00:03:57.751 | ServiceNv Create: Created map 452 with size 0x00010000!
+00:03:57.814 | ServiceNv Create: Created map 453 with size 0x00010000!
+00:03:57.875 | ServiceNv Create: Created map 454 with size 0x00010000!
+00:03:57.912 | ServiceNv Create: Created map 455 with size 0x00010000!
+00:03:57.966 | ServiceNv Create: Created map 456 with size 0x00010000!
+00:03:57.993 | ServiceNv Create: Created map 457 with size 0x00010000!
+00:03:58.004 | ServiceNv Create: Created map 458 with size 0x00010000!
+00:03:58.043 | ServiceNv Create: Created map 459 with size 0x00010000!
+00:03:58.076 | ServiceNv Create: Created map 460 with size 0x00010000!
+00:03:58.105 | ServiceNv Create: Created map 461 with size 0x00010000!
+00:03:58.169 | ServiceNv Create: Created map 462 with size 0x00010000!
+00:03:58.202 | ServiceNv Create: Created map 463 with size 0x00010000!
+00:03:58.242 | ServiceNv Create: Created map 464 with size 0x00010000!
+00:03:58.255 | ServiceNv Create: Created map 465 with size 0x00010000!
+00:03:58.276 | ServiceNv Create: Created map 466 with size 0x00010000!
+00:03:58.292 | ServiceNv Create: Created map 467 with size 0x00010000!
+00:03:58.307 | ServiceNv Create: Created map 468 with size 0x00040000!
+00:03:58.327 | ServiceNv Create: Created map 469 with size 0x00040000!
+00:03:58.379 | ServiceNv Create: Created map 470 with size 0x00040000!
+00:03:58.390 | ServiceNv Create: Created map 471 with size 0x00040000!
+00:03:58.400 | ServiceNv Create: Created map 472 with size 0x00040000!
+00:03:58.411 | ServiceNv Create: Created map 473 with size 0x00040000!
+00:03:58.421 | ServiceNv Create: Created map 474 with size 0x00040000!
+00:03:58.436 | ServiceNv Create: Created map 475 with size 0x00040000!
+00:03:58.453 | ServiceNv Create: Created map 476 with size 0x00040000!
+00:03:58.460 | ServiceNv Create: Created map 477 with size 0x00040000!
+00:03:58.478 | ServiceNv Create: Created map 478 with size 0x00040000!
+00:03:58.499 | ServiceNv Create: Created map 479 with size 0x00040000!
+00:03:58.524 | ServiceNv Create: Created map 480 with size 0x00040000!
+00:03:58.547 | ServiceNv Create: Created map 481 with size 0x00040000!
+00:03:58.599 | ServiceNv Create: Created map 482 with size 0x00040000!
+00:03:58.640 | ServiceNv Create: Created map 483 with size 0x00040000!
+00:03:58.670 | ServiceNv Create: Created map 484 with size 0x00040000!
+00:03:58.713 | ServiceNv Create: Created map 485 with size 0x00040000!
+00:03:58.737 | ServiceNv Create: Created map 486 with size 0x00040000!
+00:03:58.786 | ServiceNv Create: Created map 487 with size 0x00040000!
+00:03:58.812 | ServiceNv Create: Created map 488 with size 0x00040000!
+00:03:58.819 | ServiceNv Create: Created map 489 with size 0x00040000!
+00:03:58.831 | ServiceNv Create: Created map 490 with size 0x00040000!
+00:03:58.841 | ServiceNv Create: Created map 491 with size 0x00040000!
+00:03:58.869 | ServiceNv Create: Created map 492 with size 0x00040000!
+00:03:58.886 | ServiceNv Create: Created map 493 with size 0x00040000!
+00:03:58.891 | ServiceNv Create: Created map 494 with size 0x00040000!
+00:03:58.895 | ServiceNv Create: Created map 495 with size 0x00040000!
+00:03:58.917 | ServiceNv Create: Created map 496 with size 0x00040000!
+00:03:58.926 | ServiceNv Create: Created map 497 with size 0x00040000!
+00:03:58.934 | ServiceNv Create: Created map 498 with size 0x00040000!
+00:03:58.944 | ServiceNv Create: Created map 499 with size 0x00040000!
+00:03:58.948 | ServiceNv Create: Created map 500 with size 0x00040000!
+00:03:58.978 | ServiceNv Create: Created map 501 with size 0x00040000!
+00:03:58.993 | ServiceNv Create: Created map 502 with size 0x00040000!
+00:03:58.999 | ServiceNv Create: Created map 503 with size 0x00040000!
+00:03:59.017 | ServiceNv Create: Created map 504 with size 0x00040000!
+00:03:59.030 | ServiceNv Create: Created map 505 with size 0x00040000!
+00:03:59.040 | ServiceNv Create: Created map 506 with size 0x00040000!
+00:03:59.068 | ServiceNv Create: Created map 507 with size 0x00040000!
+00:03:59.074 | ServiceNv Create: Created map 508 with size 0x00040000!
+00:03:59.079 | ServiceNv Create: Created map 509 with size 0x00040000!
+00:03:59.103 | ServiceNv Create: Created map 510 with size 0x00040000!
+00:03:59.118 | ServiceNv Create: Created map 511 with size 0x00040000!
+00:03:59.132 | ServiceNv Create: Created map 512 with size 0x00040000!
+00:03:59.159 | ServiceNv Create: Created map 513 with size 0x00040000!
+00:03:59.179 | ServiceNv Create: Created map 514 with size 0x00040000!
+00:03:59.219 | ServiceNv Create: Created map 515 with size 0x00040000!
+00:03:59.256 | ServiceNv Create: Created map 516 with size 0x00040000!
+00:03:59.276 | ServiceNv Create: Created map 517 with size 0x00040000!
+00:03:59.294 | ServiceNv Create: Created map 518 with size 0x00040000!
+00:03:59.312 | ServiceNv Create: Created map 519 with size 0x00040000!
+00:03:59.328 | ServiceNv Create: Created map 520 with size 0x00040000!
+00:03:59.386 | ServiceNv Create: Created map 521 with size 0x00040000!
+00:03:59.398 | ServiceNv Create: Created map 522 with size 0x00040000!
+00:03:59.404 | ServiceNv Create: Created map 523 with size 0x00040000!
+00:03:59.421 | ServiceNv Create: Created map 524 with size 0x00040000!
+00:03:59.471 | ServiceNv Create: Created map 525 with size 0x00040000!
+00:03:59.504 | ServiceNv Create: Created map 526 with size 0x00040000!
+00:03:59.543 | ServiceNv Create: Created map 527 with size 0x00040000!
+00:03:59.555 | ServiceNv Create: Created map 528 with size 0x00040000!
+00:03:59.576 | ServiceNv Create: Created map 529 with size 0x00040000!
+00:03:59.582 | ServiceNv Create: Created map 530 with size 0x00040000!
+00:03:59.627 | ServiceNv Create: Created map 531 with size 0x00040000!
+00:03:59.641 | ServiceNv Create: Created map 532 with size 0x00040000!
+00:03:59.674 | ServiceNv Create: Created map 533 with size 0x00040000!
+00:03:59.739 | ServiceNv Create: Created map 534 with size 0x00040000!
+00:03:59.783 | ServiceNv Create: Created map 535 with size 0x00040000!
+00:03:59.822 | ServiceNv Create: Created map 536 with size 0x00040000!
+00:03:59.850 | ServiceNv Create: Created map 537 with size 0x00040000!
+00:03:59.857 | ServiceNv Create: Created map 538 with size 0x00040000!
+00:03:59.878 | ServiceNv Create: Created map 539 with size 0x00040000!
+00:03:59.902 | ServiceNv Create: Created map 540 with size 0x00010000!
+00:03:59.930 | ServiceNv Create: Created map 541 with size 0x00010000!
+00:03:59.943 | ServiceNv Create: Created map 542 with size 0x00010000!
+00:03:59.954 | ServiceNv Create: Created map 543 with size 0x00010000!
+00:03:59.975 | ServiceNv Create: Created map 544 with size 0x00010000!
+00:03:59.996 | ServiceNv Create: Created map 545 with size 0x00010000!
+00:04:00.002 | ServiceNv Create: Created map 546 with size 0x00010000!
+00:04:00.016 | ServiceNv Create: Created map 547 with size 0x00010000!
+00:04:00.052 | ServiceNv Create: Created map 548 with size 0x00010000!
+00:04:00.071 | ServiceNv Create: Created map 549 with size 0x00010000!
+00:04:00.077 | ServiceNv Create: Created map 550 with size 0x00010000!
+00:04:00.082 | ServiceNv Create: Created map 551 with size 0x00010000!
+00:04:00.122 | ServiceNv Create: Created map 552 with size 0x00010000!
+00:04:00.145 | ServiceNv Create: Created map 553 with size 0x00010000!
+00:04:00.154 | ServiceNv Create: Created map 554 with size 0x00010000!
+00:04:00.177 | ServiceNv Create: Created map 555 with size 0x00010000!
+00:04:00.194 | ServiceNv Create: Created map 556 with size 0x00010000!
+00:04:00.199 | ServiceNv Create: Created map 557 with size 0x00010000!
+00:04:00.244 | ServiceNv Create: Created map 558 with size 0x00010000!
+00:04:00.293 | ServiceNv Create: Created map 559 with size 0x00010000!
+00:04:00.336 | ServiceNv Create: Created map 560 with size 0x00010000!
+00:04:00.351 | ServiceNv Create: Created map 561 with size 0x00010000!
+00:04:00.363 | ServiceNv Create: Created map 562 with size 0x00010000!
+00:04:00.370 | ServiceNv Create: Created map 563 with size 0x00010000!
+00:04:00.384 | ServiceNv Create: Created map 564 with size 0x00010000!
+00:04:00.411 | ServiceNv Create: Created map 565 with size 0x00010000!
+00:04:00.423 | ServiceNv Create: Created map 566 with size 0x00010000!
+00:04:00.428 | ServiceNv Create: Created map 567 with size 0x00010000!
+00:04:00.437 | ServiceNv Create: Created map 568 with size 0x00010000!
+00:04:00.456 | ServiceNv Create: Created map 569 with size 0x00010000!
+00:04:00.478 | ServiceNv Create: Created map 570 with size 0x00010000!
+00:04:00.483 | ServiceNv Create: Created map 571 with size 0x00010000!
+00:04:00.508 | ServiceNv Create: Created map 572 with size 0x00010000!
+00:04:00.536 | ServiceNv Create: Created map 573 with size 0x00010000!
+00:04:00.548 | ServiceNv Create: Created map 574 with size 0x00010000!
+00:04:00.554 | ServiceNv Create: Created map 575 with size 0x00010000!
+00:04:00.576 | ServiceNv Create: Created map 576 with size 0x00010000!
+00:04:00.582 | ServiceNv Create: Created map 577 with size 0x00004000!
+00:04:00.597 | ServiceNv Create: Created map 578 with size 0x00004000!
+00:04:00.611 | ServiceNv Create: Created map 579 with size 0x00004000!
+00:04:00.616 | ServiceNv Create: Created map 580 with size 0x00004000!
+00:04:00.633 | ServiceNv Create: Created map 581 with size 0x00004000!
+00:04:00.662 | ServiceNv Create: Created map 582 with size 0x00004000!
+00:04:00.678 | ServiceNv Create: Created map 583 with size 0x00004000!
+00:04:00.693 | ServiceNv Create: Created map 584 with size 0x00004000!
+00:04:00.715 | ServiceNv Create: Created map 585 with size 0x00004000!
+00:04:00.721 | ServiceNv Create: Created map 586 with size 0x00004000!
+00:04:00.748 | ServiceNv Create: Created map 587 with size 0x00004000!
+00:04:00.760 | ServiceNv Create: Created map 588 with size 0x00004000!
+00:04:00.765 | ServiceNv Create: Created map 589 with size 0x00004000!
+00:04:00.773 | ServiceNv Create: Created map 590 with size 0x00004000!
+00:04:00.795 | ServiceNv Create: Created map 591 with size 0x00004000!
+00:04:00.817 | ServiceNv Create: Created map 592 with size 0x00004000!
+00:04:00.833 | ServiceNv Create: Created map 593 with size 0x00004000!
+00:04:00.842 | ServiceNv Create: Created map 594 with size 0x00004000!
+00:04:00.869 | ServiceNv Create: Created map 595 with size 0x00004000!
+00:04:00.887 | ServiceNv Create: Created map 596 with size 0x00004000!
+00:04:00.910 | ServiceNv Create: Created map 597 with size 0x00004000!
+00:04:00.917 | ServiceNv Create: Created map 598 with size 0x00004000!
+00:04:00.929 | ServiceNv Create: Created map 599 with size 0x00004000!
+00:04:00.978 | ServiceNv Create: Created map 600 with size 0x00004000!
+00:04:01.005 | ServiceNv Create: Created map 601 with size 0x00004000!
+00:04:01.036 | ServiceNv Create: Created map 602 with size 0x00004000!
+00:04:01.061 | ServiceNv Create: Created map 603 with size 0x00004000!
+00:04:01.073 | ServiceNv Create: Created map 604 with size 0x00004000!
+00:04:01.120 | ServiceNv Create: Created map 605 with size 0x00004000!
+00:04:01.145 | ServiceNv Create: Created map 606 with size 0x00004000!
+00:04:01.157 | ServiceNv Create: Created map 607 with size 0x00004000!
+00:04:01.163 | ServiceNv Create: Created map 608 with size 0x00004000!
+00:04:01.171 | ServiceNv Create: Created map 609 with size 0x00004000!
+00:04:01.187 | ServiceNv Create: Created map 610 with size 0x00004000!
+00:04:01.198 | ServiceNv Create: Created map 611 with size 0x00004000!
+00:04:01.232 | ServiceNv Create: Created map 612 with size 0x00004000!
+00:04:01.242 | ServiceNv Create: Created map 613 with size 0x00004000!
+00:04:01.258 | ServiceNv Create: Created map 614 with size 0x00004000!
+00:04:01.279 | ServiceNv Create: Created map 615 with size 0x00004000!
+00:04:01.293 | ServiceNv Create: Created map 616 with size 0x00004000!
+00:04:01.300 | ServiceNv Create: Created map 617 with size 0x00004000!
+00:04:01.319 | ServiceNv Create: Created map 618 with size 0x00004000!
+00:04:01.337 | ServiceNv Create: Created map 619 with size 0x00004000!
+00:04:01.344 | ServiceNv Create: Created map 620 with size 0x00004000!
+00:04:01.373 | ServiceNv Create: Created map 621 with size 0x00004000!
+00:04:01.399 | ServiceNv Create: Created map 622 with size 0x00004000!
+00:04:01.417 | ServiceNv Create: Created map 623 with size 0x00004000!
+00:04:01.444 | ServiceNv Create: Created map 624 with size 0x00004000!
+00:04:01.458 | ServiceNv Create: Created map 625 with size 0x00004000!
+00:04:01.486 | ServiceNv Create: Created map 626 with size 0x00004000!
+00:04:01.502 | ServiceNv Create: Created map 627 with size 0x00004000!
+00:04:01.546 | ServiceNv Create: Created map 628 with size 0x00004000!
+00:04:01.583 | ServiceNv Create: Created map 629 with size 0x00004000!
+00:04:01.601 | ServiceNv Create: Created map 630 with size 0x00004000!
+00:04:01.641 | ServiceNv Create: Created map 631 with size 0x00004000!
+00:04:01.666 | ServiceNv Create: Created map 632 with size 0x00004000!
+00:04:01.709 | ServiceNv Create: Created map 633 with size 0x00004000!
+00:04:01.761 | ServiceNv Create: Created map 634 with size 0x00004000!
+00:04:01.780 | ServiceNv Create: Created map 635 with size 0x00004000!
+00:04:01.802 | ServiceNv Create: Created map 636 with size 0x00004000!
+00:04:01.859 | ServiceNv Create: Created map 637 with size 0x00004000!
+00:04:01.886 | ServiceNv Create: Created map 638 with size 0x00004000!
+00:04:01.954 | ServiceNv Create: Created map 639 with size 0x00004000!
+00:04:01.968 | ServiceNv Create: Created map 640 with size 0x00004000!
+00:04:01.978 | ServiceNv Create: Created map 641 with size 0x00004000!
+00:04:01.994 | ServiceNv Create: Created map 642 with size 0x00004000!
+00:04:02.007 | ServiceNv Create: Created map 643 with size 0x00004000!
+00:04:02.032 | ServiceNv Create: Created map 644 with size 0x00004000!
+00:04:02.037 | ServiceNv Create: Created map 645 with size 0x00004000!
+00:04:02.059 | ServiceNv Create: Created map 646 with size 0x00004000!
+00:04:02.067 | ServiceNv Create: Created map 647 with size 0x00004000!
+00:04:02.095 | ServiceNv Create: Created map 648 with size 0x00004000!
+00:04:02.102 | ServiceNv Create: Created map 649 with size 0x00004000!
+00:04:02.124 | ServiceNv Create: Created map 650 with size 0x00004000!
+00:04:02.143 | ServiceNv Create: Created map 651 with size 0x00004000!
+00:04:02.173 | ServiceNv Create: Created map 652 with size 0x00004000!
+00:04:02.178 | ServiceNv Create: Created map 653 with size 0x00004000!
+00:04:02.183 | ServiceNv Create: Created map 654 with size 0x00004000!
+00:04:02.195 | ServiceNv Create: Created map 655 with size 0x00004000!
+00:04:02.201 | ServiceNv Create: Created map 656 with size 0x00004000!
+00:04:02.206 | ServiceNv Create: Created map 657 with size 0x00004000!
+00:04:02.224 | ServiceNv Create: Created map 658 with size 0x00004000!
+00:04:02.234 | ServiceNv Create: Created map 659 with size 0x00004000!
+00:04:02.241 | ServiceNv Create: Created map 660 with size 0x00004000!
+00:04:02.262 | ServiceNv Create: Created map 661 with size 0x00004000!
+00:04:02.285 | ServiceNv Create: Created map 662 with size 0x00004000!
+00:04:02.295 | ServiceNv Create: Created map 663 with size 0x00004000!
+00:04:02.301 | ServiceNv Create: Created map 664 with size 0x00004000!
+00:04:02.314 | ServiceNv Create: Created map 665 with size 0x00004000!
+00:04:02.330 | ServiceNv Create: Created map 666 with size 0x00004000!
+00:04:02.339 | ServiceNv Create: Created map 667 with size 0x00004000!
+00:04:02.347 | ServiceNv Create: Created map 668 with size 0x00004000!
+00:04:02.355 | ServiceNv Create: Created map 669 with size 0x00004000!
+00:04:02.370 | ServiceNv Create: Created map 670 with size 0x00004000!
+00:04:02.393 | ServiceNv Create: Created map 671 with size 0x00004000!
+00:04:02.419 | ServiceNv Create: Created map 672 with size 0x00004000!
+00:04:02.457 | ServiceNv Create: Created map 673 with size 0x00004000!
+00:04:02.463 | ServiceNv Create: Created map 674 with size 0x00004000!
+00:04:02.469 | ServiceNv Create: Created map 675 with size 0x00004000!
+00:04:02.492 | ServiceNv Create: Created map 676 with size 0x00004000!
+00:04:02.506 | ServiceNv Create: Created map 677 with size 0x00004000!
+00:04:02.537 | ServiceNv Create: Created map 678 with size 0x00004000!
+00:04:02.577 | ServiceNv Create: Created map 679 with size 0x00004000!
+00:04:02.584 | ServiceNv Create: Created map 680 with size 0x00004000!
+00:04:02.603 | ServiceNv Create: Created map 681 with size 0x00004000!
+00:04:02.625 | ServiceNv Create: Created map 682 with size 0x00004000!
+00:04:02.634 | ServiceNv Create: Created map 683 with size 0x00004000!
+00:04:02.642 | ServiceNv Create: Created map 684 with size 0x00004000!
+00:04:02.676 | ServiceNv Create: Created map 685 with size 0x00004000!
+00:04:02.695 | ServiceNv Create: Created map 686 with size 0x00004000!
+00:04:02.705 | ServiceNv Create: Created map 687 with size 0x00004000!
+00:04:02.720 | ServiceNv Create: Created map 688 with size 0x00004000!
+00:04:02.728 | ServiceNv Create: Created map 689 with size 0x00004000!
+00:04:02.763 | ServiceNv Create: Created map 690 with size 0x00004000!
+00:04:02.781 | ServiceNv Create: Created map 691 with size 0x00004000!
+00:04:02.803 | ServiceNv Create: Created map 692 with size 0x00004000!
+00:04:02.860 | ServiceNv Create: Created map 693 with size 0x00004000!
+00:04:02.886 | ServiceNv Create: Created map 694 with size 0x00004000!
+00:04:02.904 | ServiceNv Create: Created map 695 with size 0x00004000!
+00:04:02.933 | ServiceNv Create: Created map 696 with size 0x00004000!
+00:04:02.960 | ServiceNv Create: Created map 697 with size 0x00004000!
+00:04:02.984 | ServiceNv Create: Created map 698 with size 0x00004000!
+00:04:03.002 | ServiceNv Create: Created map 699 with size 0x00004000!
+00:04:03.046 | ServiceNv Create: Created map 700 with size 0x00004000!
+00:04:03.068 | ServiceNv Create: Created map 701 with size 0x00004000!
+00:04:06.932 | ServiceNv Create: Created map 702 with size 0x00001000!
+00:04:08.858 | ServiceHid SetSupportedNpadStyleSet: Stubbed. appletResourceUserId: 0 - type: ProController, Handheld, JoyconPair
+00:04:08.859 | Hid InitController: Connected ControllerType Handheld to PlayerIndex Handheld
+00:04:08.861 | ServiceHid SetSupportedNpadIdType: Stubbed. 2 Player1,Handheld
+00:04:46.991 | GUI.RenderLoop SurfaceFlinger WaitForever: Android fence didn't signal in 3000 ms
+00:04:48.000 | GUI.RenderLoop Gpu WaitOnSyncpoint: Wait on syncpoint 1 for threshold 4793 took more than 1000ms, resuming execution...
+00:05:08.530 | GUI.RenderLoop SurfaceFlinger WaitForever: Android fence didn't signal in 3000 ms
+00:05:09.530 | GUI.RenderLoop Gpu WaitOnSyncpoint: Wait on syncpoint 1 for threshold 6897 took more than 1000ms, resuming execution...
+00:05:12.013 | ServiceNv DecrementMapRefCount: Deleted map 368!
+00:05:12.051 | ServiceNv DecrementMapRefCount: Deleted map 369!
+00:05:12.052 | ServiceNv DecrementMapRefCount: Deleted map 370!
+00:05:12.053 | ServiceNv DecrementMapRefCount: Deleted map 371!
+00:05:12.054 | ServiceNv DecrementMapRefCount: Deleted map 372!
+00:05:12.055 | ServiceNv DecrementMapRefCount: Deleted map 373!
+00:05:12.056 | ServiceNv DecrementMapRefCount: Deleted map 374!
+00:05:12.057 | ServiceNv DecrementMapRefCount: Deleted map 375!
+00:05:12.057 | ServiceNv DecrementMapRefCount: Deleted map 376!
+00:05:12.058 | ServiceNv DecrementMapRefCount: Deleted map 377!
+00:05:12.059 | ServiceNv DecrementMapRefCount: Deleted map 378!
+00:05:12.059 | ServiceNv DecrementMapRefCount: Deleted map 379!
+00:05:12.059 | ServiceNv DecrementMapRefCount: Deleted map 380!
+00:05:12.060 | ServiceNv DecrementMapRefCount: Deleted map 381!
+00:05:12.060 | ServiceNv DecrementMapRefCount: Deleted map 382!
+00:05:12.060 | ServiceNv DecrementMapRefCount: Deleted map 383!
+00:05:12.061 | ServiceNv DecrementMapRefCount: Deleted map 384!
+00:05:12.061 | ServiceNv DecrementMapRefCount: Deleted map 385!
+00:05:12.061 | ServiceNv DecrementMapRefCount: Deleted map 386!
+00:05:12.062 | ServiceNv DecrementMapRefCount: Deleted map 387!
+00:05:12.062 | ServiceNv DecrementMapRefCount: Deleted map 388!
+00:05:12.063 | ServiceNv DecrementMapRefCount: Deleted map 389!
+00:05:12.074 | ServiceNv DecrementMapRefCount: Deleted map 390!
+00:05:12.074 | ServiceNv DecrementMapRefCount: Deleted map 391!
+00:05:12.075 | ServiceNv DecrementMapRefCount: Deleted map 392!
+00:05:12.075 | ServiceNv DecrementMapRefCount: Deleted map 393!
+00:05:12.076 | ServiceNv DecrementMapRefCount: Deleted map 394!
+00:05:12.076 | ServiceNv DecrementMapRefCount: Deleted map 395!
+00:05:12.076 | ServiceNv DecrementMapRefCount: Deleted map 396!
+00:05:12.077 | ServiceNv DecrementMapRefCount: Deleted map 397!
+00:05:12.077 | ServiceNv DecrementMapRefCount: Deleted map 398!
+00:05:12.077 | ServiceNv DecrementMapRefCount: Deleted map 399!
+00:05:12.078 | ServiceNv DecrementMapRefCount: Deleted map 400!
+00:05:12.078 | ServiceNv DecrementMapRefCount: Deleted map 401!
+00:05:12.079 | ServiceNv DecrementMapRefCount: Deleted map 402!
+00:05:12.079 | ServiceNv DecrementMapRefCount: Deleted map 403!
+00:05:12.083 | ServiceNv DecrementMapRefCount: Deleted map 404!
+00:05:12.084 | ServiceNv DecrementMapRefCount: Deleted map 405!
+00:05:12.089 | ServiceNv DecrementMapRefCount: Deleted map 406!
+00:05:12.090 | ServiceNv DecrementMapRefCount: Deleted map 407!
+00:05:12.091 | ServiceNv DecrementMapRefCount: Deleted map 408!
+00:05:12.091 | ServiceNv DecrementMapRefCount: Deleted map 409!
+00:05:12.092 | ServiceNv DecrementMapRefCount: Deleted map 410!
+00:05:12.092 | ServiceNv DecrementMapRefCount: Deleted map 411!
+00:05:12.093 | ServiceNv DecrementMapRefCount: Deleted map 412!
+00:05:12.093 | ServiceNv DecrementMapRefCount: Deleted map 413!
+00:05:12.093 | ServiceNv DecrementMapRefCount: Deleted map 414!
+00:05:12.094 | ServiceNv DecrementMapRefCount: Deleted map 415!
+00:05:12.094 | ServiceNv DecrementMapRefCount: Deleted map 416!
+00:05:12.094 | ServiceNv DecrementMapRefCount: Deleted map 417!
+00:05:12.095 | ServiceNv DecrementMapRefCount: Deleted map 418!
+00:05:12.095 | ServiceNv DecrementMapRefCount: Deleted map 419!
+00:05:12.095 | ServiceNv DecrementMapRefCount: Deleted map 420!
+00:05:12.096 | ServiceNv DecrementMapRefCount: Deleted map 421!
+00:05:12.096 | ServiceNv DecrementMapRefCount: Deleted map 422!
+00:05:12.096 | ServiceNv DecrementMapRefCount: Deleted map 423!
+00:05:12.097 | ServiceNv DecrementMapRefCount: Deleted map 424!
+00:05:12.102 | ServiceNv DecrementMapRefCount: Deleted map 425!
+00:05:12.103 | ServiceNv DecrementMapRefCount: Deleted map 426!
+00:05:12.104 | ServiceNv DecrementMapRefCount: Deleted map 427!
+00:05:12.105 | ServiceNv DecrementMapRefCount: Deleted map 428!
+00:05:12.106 | ServiceNv DecrementMapRefCount: Deleted map 429!
+00:05:12.107 | ServiceNv DecrementMapRefCount: Deleted map 430!
+00:05:12.108 | ServiceNv DecrementMapRefCount: Deleted map 431!
+00:05:12.109 | ServiceNv DecrementMapRefCount: Deleted map 432!
+00:05:12.111 | ServiceNv DecrementMapRefCount: Deleted map 433!
+00:05:12.112 | ServiceNv DecrementMapRefCount: Deleted map 434!
+00:05:12.113 | ServiceNv DecrementMapRefCount: Deleted map 435!
+00:05:12.116 | ServiceNv DecrementMapRefCount: Deleted map 436!
+00:05:12.117 | ServiceNv DecrementMapRefCount: Deleted map 437!
+00:05:12.117 | ServiceNv DecrementMapRefCount: Deleted map 438!
+00:05:12.122 | ServiceNv DecrementMapRefCount: Deleted map 439!
+00:05:12.123 | ServiceNv DecrementMapRefCount: Deleted map 440!
+00:05:12.124 | ServiceNv DecrementMapRefCount: Deleted map 441!
+00:05:12.124 | ServiceNv DecrementMapRefCount: Deleted map 442!
+00:05:12.125 | ServiceNv DecrementMapRefCount: Deleted map 443!
+00:05:12.125 | ServiceNv DecrementMapRefCount: Deleted map 444!
+00:05:12.125 | ServiceNv DecrementMapRefCount: Deleted map 445!
+00:05:12.126 | ServiceNv DecrementMapRefCount: Deleted map 446!
+00:05:12.126 | ServiceNv DecrementMapRefCount: Deleted map 447!
+00:05:12.127 | ServiceNv DecrementMapRefCount: Deleted map 448!
+00:05:12.127 | ServiceNv DecrementMapRefCount: Deleted map 449!
+00:05:12.127 | ServiceNv DecrementMapRefCount: Deleted map 450!
+00:05:12.129 | ServiceNv DecrementMapRefCount: Deleted map 451!
+00:05:12.137 | ServiceNv DecrementMapRefCount: Deleted map 452!
+00:05:12.138 | ServiceNv DecrementMapRefCount: Deleted map 453!
+00:05:12.139 | ServiceNv DecrementMapRefCount: Deleted map 454!
+00:05:12.139 | ServiceNv DecrementMapRefCount: Deleted map 455!
+00:05:12.139 | ServiceNv DecrementMapRefCount: Deleted map 456!
+00:05:12.139 | ServiceNv DecrementMapRefCount: Deleted map 457!
+00:05:12.140 | ServiceNv DecrementMapRefCount: Deleted map 458!
+00:05:12.140 | ServiceNv DecrementMapRefCount: Deleted map 459!
+00:05:12.140 | ServiceNv DecrementMapRefCount: Deleted map 460!
+00:05:12.141 | ServiceNv DecrementMapRefCount: Deleted map 461!
+00:05:12.141 | ServiceNv DecrementMapRefCount: Deleted map 462!
+00:05:12.142 | ServiceNv DecrementMapRefCount: Deleted map 463!
+00:05:12.143 | ServiceNv DecrementMapRefCount: Deleted map 464!
+00:05:12.143 | ServiceNv DecrementMapRefCount: Deleted map 465!
+00:05:12.144 | ServiceNv DecrementMapRefCount: Deleted map 466!
+00:05:12.144 | ServiceNv DecrementMapRefCount: Deleted map 467!
+00:05:12.144 | ServiceNv DecrementMapRefCount: Deleted map 468!
+00:05:12.145 | ServiceNv DecrementMapRefCount: Deleted map 469!
+00:05:12.145 | ServiceNv DecrementMapRefCount: Deleted map 470!
+00:05:12.145 | ServiceNv DecrementMapRefCount: Deleted map 471!
+00:05:12.146 | ServiceNv DecrementMapRefCount: Deleted map 472!
+00:05:12.147 | ServiceNv DecrementMapRefCount: Deleted map 473!
+00:05:12.147 | ServiceNv DecrementMapRefCount: Deleted map 474!
+00:05:12.148 | ServiceNv DecrementMapRefCount: Deleted map 475!
+00:05:12.151 | ServiceNv DecrementMapRefCount: Deleted map 476!
+00:05:12.155 | ServiceNv DecrementMapRefCount: Deleted map 477!
+00:05:12.156 | ServiceNv DecrementMapRefCount: Deleted map 478!
+00:05:12.157 | ServiceNv DecrementMapRefCount: Deleted map 479!
+00:05:12.157 | ServiceNv DecrementMapRefCount: Deleted map 480!
+00:05:12.157 | ServiceNv DecrementMapRefCount: Deleted map 481!
+00:05:12.158 | ServiceNv DecrementMapRefCount: Deleted map 482!
+00:05:12.159 | ServiceNv DecrementMapRefCount: Deleted map 483!
+00:05:12.159 | ServiceNv DecrementMapRefCount: Deleted map 484!
+00:05:12.160 | ServiceNv DecrementMapRefCount: Deleted map 485!
+00:05:12.161 | ServiceNv DecrementMapRefCount: Deleted map 486!
+00:05:12.161 | ServiceNv DecrementMapRefCount: Deleted map 487!
+00:05:12.162 | ServiceNv DecrementMapRefCount: Deleted map 488!
+00:05:12.162 | ServiceNv DecrementMapRefCount: Deleted map 489!
+00:05:12.163 | ServiceNv DecrementMapRefCount: Deleted map 490!
+00:05:12.164 | ServiceNv DecrementMapRefCount: Deleted map 491!
+00:05:12.165 | ServiceNv DecrementMapRefCount: Deleted map 492!
+00:05:12.165 | ServiceNv DecrementMapRefCount: Deleted map 493!
+00:05:12.166 | ServiceNv DecrementMapRefCount: Deleted map 494!
+00:05:12.166 | ServiceNv DecrementMapRefCount: Deleted map 495!
+00:05:12.167 | ServiceNv DecrementMapRefCount: Deleted map 496!
+00:05:12.168 | ServiceNv DecrementMapRefCount: Deleted map 497!
+00:05:12.168 | ServiceNv DecrementMapRefCount: Deleted map 498!
+00:05:12.168 | ServiceNv DecrementMapRefCount: Deleted map 499!
+00:05:12.169 | ServiceNv DecrementMapRefCount: Deleted map 500!
+00:05:12.170 | ServiceNv DecrementMapRefCount: Deleted map 501!
+00:05:12.170 | ServiceNv DecrementMapRefCount: Deleted map 502!
+00:05:12.171 | ServiceNv DecrementMapRefCount: Deleted map 503!
+00:05:12.171 | ServiceNv DecrementMapRefCount: Deleted map 504!
+00:05:12.172 | ServiceNv DecrementMapRefCount: Deleted map 505!
+00:05:12.173 | ServiceNv DecrementMapRefCount: Deleted map 506!
+00:05:12.173 | ServiceNv DecrementMapRefCount: Deleted map 507!
+00:05:12.174 | ServiceNv DecrementMapRefCount: Deleted map 508!
+00:05:12.174 | ServiceNv DecrementMapRefCount: Deleted map 509!
+00:05:12.175 | ServiceNv DecrementMapRefCount: Deleted map 510!
+00:05:12.175 | ServiceNv DecrementMapRefCount: Deleted map 511!
+00:05:12.176 | ServiceNv DecrementMapRefCount: Deleted map 512!
+00:05:12.177 | ServiceNv DecrementMapRefCount: Deleted map 513!
+00:05:12.177 | ServiceNv DecrementMapRefCount: Deleted map 514!
+00:05:12.178 | ServiceNv DecrementMapRefCount: Deleted map 515!
+00:05:12.178 | ServiceNv DecrementMapRefCount: Deleted map 516!
+00:05:12.179 | ServiceNv DecrementMapRefCount: Deleted map 517!
+00:05:12.179 | ServiceNv DecrementMapRefCount: Deleted map 518!
+00:05:12.180 | ServiceNv DecrementMapRefCount: Deleted map 519!
+00:05:12.181 | ServiceNv DecrementMapRefCount: Deleted map 520!
+00:05:12.181 | ServiceNv DecrementMapRefCount: Deleted map 521!
+00:05:12.182 | ServiceNv DecrementMapRefCount: Deleted map 522!
+00:05:12.182 | ServiceNv DecrementMapRefCount: Deleted map 523!
+00:05:12.183 | ServiceNv DecrementMapRefCount: Deleted map 524!
+00:05:12.183 | ServiceNv DecrementMapRefCount: Deleted map 525!
+00:05:12.184 | ServiceNv DecrementMapRefCount: Deleted map 526!
+00:05:12.184 | ServiceNv DecrementMapRefCount: Deleted map 527!
+00:05:12.188 | ServiceNv DecrementMapRefCount: Deleted map 528!
+00:05:12.206 | ServiceNv DecrementMapRefCount: Deleted map 529!
+00:05:12.207 | ServiceNv DecrementMapRefCount: Deleted map 530!
+00:05:12.208 | ServiceNv DecrementMapRefCount: Deleted map 531!
+00:05:12.208 | ServiceNv DecrementMapRefCount: Deleted map 532!
+00:05:12.209 | ServiceNv DecrementMapRefCount: Deleted map 533!
+00:05:12.209 | ServiceNv DecrementMapRefCount: Deleted map 534!
+00:05:12.210 | ServiceNv DecrementMapRefCount: Deleted map 535!
+00:05:12.210 | ServiceNv DecrementMapRefCount: Deleted map 536!
+00:05:12.211 | ServiceNv DecrementMapRefCount: Deleted map 537!
+00:05:12.211 | ServiceNv DecrementMapRefCount: Deleted map 538!
+00:05:12.212 | ServiceNv DecrementMapRefCount: Deleted map 539!
+00:05:12.213 | ServiceNv DecrementMapRefCount: Deleted map 540!
+00:05:12.214 | ServiceNv DecrementMapRefCount: Deleted map 541!
+00:05:12.215 | ServiceNv DecrementMapRefCount: Deleted map 542!
+00:05:12.215 | ServiceNv DecrementMapRefCount: Deleted map 543!
+00:05:12.215 | ServiceNv DecrementMapRefCount: Deleted map 544!
+00:05:12.216 | ServiceNv DecrementMapRefCount: Deleted map 545!
+00:05:12.216 | ServiceNv DecrementMapRefCount: Deleted map 546!
+00:05:12.223 | ServiceNv DecrementMapRefCount: Deleted map 547!
+00:05:12.224 | ServiceNv DecrementMapRefCount: Deleted map 548!
+00:05:12.224 | ServiceNv DecrementMapRefCount: Deleted map 549!
+00:05:12.225 | ServiceNv DecrementMapRefCount: Deleted map 550!
+00:05:12.225 | ServiceNv DecrementMapRefCount: Deleted map 551!
+00:05:12.226 | ServiceNv DecrementMapRefCount: Deleted map 552!
+00:05:12.227 | ServiceNv DecrementMapRefCount: Deleted map 553!
+00:05:12.231 | ServiceNv DecrementMapRefCount: Deleted map 554!
+00:05:12.234 | ServiceNv DecrementMapRefCount: Deleted map 555!
+00:05:12.235 | ServiceNv DecrementMapRefCount: Deleted map 556!
+00:05:12.235 | ServiceNv DecrementMapRefCount: Deleted map 557!
+00:05:12.236 | ServiceNv DecrementMapRefCount: Deleted map 558!
+00:05:12.237 | ServiceNv DecrementMapRefCount: Deleted map 559!
+00:05:12.237 | ServiceNv DecrementMapRefCount: Deleted map 560!
+00:05:12.238 | ServiceNv DecrementMapRefCount: Deleted map 561!
+00:05:12.238 | ServiceNv DecrementMapRefCount: Deleted map 562!
+00:05:12.239 | ServiceNv DecrementMapRefCount: Deleted map 563!
+00:05:12.239 | ServiceNv DecrementMapRefCount: Deleted map 564!
+00:05:12.240 | ServiceNv DecrementMapRefCount: Deleted map 565!
+00:05:12.240 | ServiceNv DecrementMapRefCount: Deleted map 566!
+00:05:12.241 | ServiceNv DecrementMapRefCount: Deleted map 567!
+00:05:12.241 | ServiceNv DecrementMapRefCount: Deleted map 568!
+00:05:12.242 | ServiceNv DecrementMapRefCount: Deleted map 569!
+00:05:12.242 | ServiceNv DecrementMapRefCount: Deleted map 570!
+00:05:12.243 | ServiceNv DecrementMapRefCount: Deleted map 571!
+00:05:12.244 | ServiceNv DecrementMapRefCount: Deleted map 572!
+00:05:12.244 | ServiceNv DecrementMapRefCount: Deleted map 573!
+00:05:12.245 | ServiceNv DecrementMapRefCount: Deleted map 574!
+00:05:12.245 | ServiceNv DecrementMapRefCount: Deleted map 575!
+00:05:12.246 | ServiceNv DecrementMapRefCount: Deleted map 576!
+00:05:12.247 | ServiceNv DecrementMapRefCount: Deleted map 577!
+00:05:12.247 | ServiceNv DecrementMapRefCount: Deleted map 578!
+00:05:12.248 | ServiceNv DecrementMapRefCount: Deleted map 579!
+00:05:12.249 | ServiceNv DecrementMapRefCount: Deleted map 580!
+00:05:12.250 | ServiceNv DecrementMapRefCount: Deleted map 581!
+00:05:12.250 | ServiceNv DecrementMapRefCount: Deleted map 582!
+00:05:12.251 | ServiceNv DecrementMapRefCount: Deleted map 583!
+00:05:12.255 | ServiceNv DecrementMapRefCount: Deleted map 584!
+00:05:12.255 | ServiceNv DecrementMapRefCount: Deleted map 585!
+00:05:12.256 | ServiceNv DecrementMapRefCount: Deleted map 586!
+00:05:12.256 | ServiceNv DecrementMapRefCount: Deleted map 587!
+00:05:12.256 | ServiceNv DecrementMapRefCount: Deleted map 588!
+00:05:12.257 | ServiceNv DecrementMapRefCount: Deleted map 589!
+00:05:12.258 | ServiceNv DecrementMapRefCount: Deleted map 590!
+00:05:12.258 | ServiceNv DecrementMapRefCount: Deleted map 591!
+00:05:12.259 | ServiceNv DecrementMapRefCount: Deleted map 592!
+00:05:12.259 | ServiceNv DecrementMapRefCount: Deleted map 593!
+00:05:12.260 | ServiceNv DecrementMapRefCount: Deleted map 594!
+00:05:12.260 | ServiceNv DecrementMapRefCount: Deleted map 595!
+00:05:12.260 | ServiceNv DecrementMapRefCount: Deleted map 596!
+00:05:12.261 | ServiceNv DecrementMapRefCount: Deleted map 597!
+00:05:12.261 | ServiceNv DecrementMapRefCount: Deleted map 598!
+00:05:12.261 | ServiceNv DecrementMapRefCount: Deleted map 599!
+00:05:12.261 | ServiceNv DecrementMapRefCount: Deleted map 600!
+00:05:12.261 | ServiceNv DecrementMapRefCount: Deleted map 601!
+00:05:12.262 | ServiceNv DecrementMapRefCount: Deleted map 602!
+00:05:12.262 | ServiceNv DecrementMapRefCount: Deleted map 603!
+00:05:12.262 | ServiceNv DecrementMapRefCount: Deleted map 604!
+00:05:12.262 | ServiceNv DecrementMapRefCount: Deleted map 605!
+00:05:12.263 | ServiceNv DecrementMapRefCount: Deleted map 606!
+00:05:12.264 | ServiceNv DecrementMapRefCount: Deleted map 607!
+00:05:12.264 | ServiceNv DecrementMapRefCount: Deleted map 608!
+00:05:12.265 | ServiceNv DecrementMapRefCount: Deleted map 609!
+00:05:12.265 | ServiceNv DecrementMapRefCount: Deleted map 610!
+00:05:12.265 | ServiceNv DecrementMapRefCount: Deleted map 611!
+00:05:12.265 | ServiceNv DecrementMapRefCount: Deleted map 612!
+00:05:12.267 | ServiceNv DecrementMapRefCount: Deleted map 613!
+00:05:12.267 | ServiceNv DecrementMapRefCount: Deleted map 614!
+00:05:12.267 | ServiceNv DecrementMapRefCount: Deleted map 615!
+00:05:12.267 | ServiceNv DecrementMapRefCount: Deleted map 616!
+00:05:12.268 | ServiceNv DecrementMapRefCount: Deleted map 617!
+00:05:12.269 | ServiceNv DecrementMapRefCount: Deleted map 618!
+00:05:12.269 | ServiceNv DecrementMapRefCount: Deleted map 619!
+00:05:12.270 | ServiceNv DecrementMapRefCount: Deleted map 620!
+00:05:12.270 | ServiceNv DecrementMapRefCount: Deleted map 621!
+00:05:12.271 | ServiceNv DecrementMapRefCount: Deleted map 622!
+00:05:12.271 | ServiceNv DecrementMapRefCount: Deleted map 623!
+00:05:12.272 | ServiceNv DecrementMapRefCount: Deleted map 624!
+00:05:12.272 | ServiceNv DecrementMapRefCount: Deleted map 625!
+00:05:12.273 | ServiceNv DecrementMapRefCount: Deleted map 626!
+00:05:12.273 | ServiceNv DecrementMapRefCount: Deleted map 627!
+00:05:12.274 | ServiceNv DecrementMapRefCount: Deleted map 628!
+00:05:12.274 | ServiceNv DecrementMapRefCount: Deleted map 629!
+00:05:12.274 | ServiceNv DecrementMapRefCount: Deleted map 630!
+00:05:12.275 | ServiceNv DecrementMapRefCount: Deleted map 631!
+00:05:12.275 | ServiceNv DecrementMapRefCount: Deleted map 632!
+00:05:12.275 | ServiceNv DecrementMapRefCount: Deleted map 633!
+00:05:12.276 | ServiceNv DecrementMapRefCount: Deleted map 634!
+00:05:12.276 | ServiceNv DecrementMapRefCount: Deleted map 635!
+00:05:12.276 | ServiceNv DecrementMapRefCount: Deleted map 636!
+00:05:12.277 | ServiceNv DecrementMapRefCount: Deleted map 637!
+00:05:12.277 | ServiceNv DecrementMapRefCount: Deleted map 638!
+00:05:12.277 | ServiceNv DecrementMapRefCount: Deleted map 639!
+00:05:12.278 | ServiceNv DecrementMapRefCount: Deleted map 640!
+00:05:12.278 | ServiceNv DecrementMapRefCount: Deleted map 641!
+00:05:12.279 | ServiceNv DecrementMapRefCount: Deleted map 642!
+00:05:12.279 | ServiceNv DecrementMapRefCount: Deleted map 643!
+00:05:12.279 | ServiceNv DecrementMapRefCount: Deleted map 644!
+00:05:12.280 | ServiceNv DecrementMapRefCount: Deleted map 645!
+00:05:12.281 | ServiceNv DecrementMapRefCount: Deleted map 646!
+00:05:12.281 | ServiceNv DecrementMapRefCount: Deleted map 647!
+00:05:12.281 | ServiceNv DecrementMapRefCount: Deleted map 648!
+00:05:12.282 | ServiceNv DecrementMapRefCount: Deleted map 649!
+00:05:12.283 | ServiceNv DecrementMapRefCount: Deleted map 650!
+00:05:12.283 | ServiceNv DecrementMapRefCount: Deleted map 651!
+00:05:12.283 | ServiceNv DecrementMapRefCount: Deleted map 652!
+00:05:12.284 | ServiceNv DecrementMapRefCount: Deleted map 653!
+00:05:12.284 | ServiceNv DecrementMapRefCount: Deleted map 654!
+00:05:12.285 | ServiceNv DecrementMapRefCount: Deleted map 655!
+00:05:12.285 | ServiceNv DecrementMapRefCount: Deleted map 656!
+00:05:12.286 | ServiceNv DecrementMapRefCount: Deleted map 657!
+00:05:12.286 | ServiceNv DecrementMapRefCount: Deleted map 658!
+00:05:12.287 | ServiceNv DecrementMapRefCount: Deleted map 659!
+00:05:12.287 | ServiceNv DecrementMapRefCount: Deleted map 660!
+00:05:12.288 | ServiceNv DecrementMapRefCount: Deleted map 661!
+00:05:12.289 | ServiceNv DecrementMapRefCount: Deleted map 662!
+00:05:12.290 | ServiceNv DecrementMapRefCount: Deleted map 663!
+00:05:12.290 | ServiceNv DecrementMapRefCount: Deleted map 664!
+00:05:12.291 | ServiceNv DecrementMapRefCount: Deleted map 665!
+00:05:12.291 | ServiceNv DecrementMapRefCount: Deleted map 666!
+00:05:12.292 | ServiceNv DecrementMapRefCount: Deleted map 667!
+00:05:12.292 | ServiceNv DecrementMapRefCount: Deleted map 668!
+00:05:12.292 | ServiceNv DecrementMapRefCount: Deleted map 669!
+00:05:12.302 | ServiceNv DecrementMapRefCount: Deleted map 670!
+00:05:12.302 | ServiceNv DecrementMapRefCount: Deleted map 671!
+00:05:12.303 | ServiceNv DecrementMapRefCount: Deleted map 672!
+00:05:12.303 | ServiceNv DecrementMapRefCount: Deleted map 673!
+00:05:12.303 | ServiceNv DecrementMapRefCount: Deleted map 674!
+00:05:12.304 | ServiceNv DecrementMapRefCount: Deleted map 675!
+00:05:12.304 | ServiceNv DecrementMapRefCount: Deleted map 676!
+00:05:12.305 | ServiceNv DecrementMapRefCount: Deleted map 677!
+00:05:12.305 | ServiceNv DecrementMapRefCount: Deleted map 678!
+00:05:12.305 | ServiceNv DecrementMapRefCount: Deleted map 679!
+00:05:12.306 | ServiceNv DecrementMapRefCount: Deleted map 680!
+00:05:12.306 | ServiceNv DecrementMapRefCount: Deleted map 681!
+00:05:12.307 | ServiceNv DecrementMapRefCount: Deleted map 682!
+00:05:12.307 | ServiceNv DecrementMapRefCount: Deleted map 683!
+00:05:12.308 | ServiceNv DecrementMapRefCount: Deleted map 684!
+00:05:12.308 | ServiceNv DecrementMapRefCount: Deleted map 685!
+00:05:12.308 | ServiceNv DecrementMapRefCount: Deleted map 686!
+00:05:12.309 | ServiceNv DecrementMapRefCount: Deleted map 687!
+00:05:12.309 | ServiceNv DecrementMapRefCount: Deleted map 688!
+00:05:12.310 | ServiceNv DecrementMapRefCount: Deleted map 689!
+00:05:12.310 | ServiceNv DecrementMapRefCount: Deleted map 690!
+00:05:12.310 | ServiceNv DecrementMapRefCount: Deleted map 691!
+00:05:12.311 | ServiceNv DecrementMapRefCount: Deleted map 692!
+00:05:12.311 | ServiceNv DecrementMapRefCount: Deleted map 693!
+00:05:12.312 | ServiceNv DecrementMapRefCount: Deleted map 694!
+00:05:12.312 | ServiceNv DecrementMapRefCount: Deleted map 695!
+00:05:12.313 | ServiceNv DecrementMapRefCount: Deleted map 696!
+00:05:12.313 | ServiceNv DecrementMapRefCount: Deleted map 697!
+00:05:12.314 | ServiceNv DecrementMapRefCount: Deleted map 698!
+00:05:12.314 | ServiceNv DecrementMapRefCount: Deleted map 699!
+00:05:12.314 | ServiceNv DecrementMapRefCount: Deleted map 700!
+00:05:12.315 | ServiceNv DecrementMapRefCount: Deleted map 701!
+00:05:12.527 | ServiceNv DecrementMapRefCount: Deleted map 702!
+00:05:12.614 | ServiceNv DecrementMapRefCount: Deleted map 367!
+00:05:16.119 | ServiceNv Create: Created map 367 with size 0x00018000!
+00:05:16.333 | ServiceNv Create: Created map 368 with size 0x000ab000!
+00:05:16.432 | ServiceNv Create: Created map 369 with size 0x00004000!
+00:05:16.510 | ServiceNv Create: Created map 370 with size 0x00200000!
+00:05:16.535 | ServiceNv Create: Created map 371 with size 0x00200000!
+00:05:16.646 | ServiceNv Create: Created map 372 with size 0x00020000!
+00:05:16.958 | ServiceNv Create: Created map 373 with size 0x003b7000!
+00:05:17.009 | ServiceNv Create: Created map 374 with size 0x00020000!
+00:05:17.096 | ServiceNv Create: Created map 375 with size 0x000ab000!
+00:05:18.024 | ServiceNv Create: Created map 376 with size 0x00004000!
+00:05:18.503 | ServiceNv Create: Created map 377 with size 0x00004000!
+00:05:18.634 | ServiceNv Create: Created map 378 with size 0x00004000!
+00:05:18.661 | ServiceNv Create: Created map 379 with size 0x00004000!
+00:05:18.704 | ServiceNv Create: Created map 380 with size 0x00004000!
+00:05:18.715 | ServiceNv Create: Created map 381 with size 0x00004000!
+00:05:18.744 | ServiceNv Create: Created map 382 with size 0x00006000!
+00:05:18.805 | ServiceNv Create: Created map 383 with size 0x001b3000!
+00:05:19.184 | ServiceNv Create: Created map 384 with size 0x00004000!
+00:05:19.257 | ServiceNv Create: Created map 385 with size 0x00004000!
+00:05:19.289 | ServiceNv Create: Created map 386 with size 0x00004000!
+00:05:19.318 | ServiceNv Create: Created map 387 with size 0x00004000!
+00:05:19.326 | ServiceNv Create: Created map 388 with size 0x00004000!
+00:05:19.387 | ServiceNv Create: Created map 389 with size 0x00004000!
+00:05:19.405 | ServiceNv Create: Created map 390 with size 0x00004000!
+00:05:19.434 | ServiceNv Create: Created map 391 with size 0x00004000!
+00:05:19.474 | ServiceNv Create: Created map 392 with size 0x00004000!
+00:05:19.512 | ServiceNv Create: Created map 393 with size 0x00004000!
+00:05:19.536 | ServiceNv Create: Created map 394 with size 0x00004000!
+00:05:19.557 | ServiceNv Create: Created map 395 with size 0x00004000!
+00:05:19.585 | ServiceNv Create: Created map 396 with size 0x00004000!
+00:05:19.612 | ServiceNv Create: Created map 397 with size 0x00004000!
+00:05:19.637 | ServiceNv Create: Created map 398 with size 0x00004000!
+00:05:19.671 | ServiceNv Create: Created map 399 with size 0x00004000!
+00:05:19.822 | ServiceNv Create: Created map 400 with size 0x00205000!
+00:05:19.896 | ServiceNv Create: Created map 401 with size 0x00004000!
+00:05:20.125 | ServiceNv Create: Created map 402 with size 0x02000000!
+00:05:20.514 | ServiceNv Create: Created map 403 with size 0x00004000!
+00:05:20.592 | ServiceNv Create: Created map 404 with size 0x00040000!
+00:05:20.639 | ServiceNv Create: Created map 405 with size 0x00006000!
+00:05:20.769 | ServiceNv Create: Created map 406 with size 0x00020000!
+00:05:20.802 | ServiceNv Create: Created map 407 with size 0x00004000!
+00:05:20.838 | ServiceNv Create: Created map 408 with size 0x00004000!
+00:05:20.871 | ServiceNv Create: Created map 409 with size 0x00004000!
+00:05:20.882 | ServiceNv Create: Created map 410 with size 0x00004000!
+00:05:20.909 | ServiceNv Create: Created map 411 with size 0x00004000!
+00:05:20.960 | ServiceNv Create: Created map 412 with size 0x00004000!
+00:05:20.982 | ServiceNv Create: Created map 413 with size 0x00004000!
+00:05:21.020 | ServiceNv Create: Created map 414 with size 0x00004000!
+00:05:21.066 | ServiceNv Create: Created map 415 with size 0x00004000!
+00:05:21.095 | ServiceNv Create: Created map 416 with size 0x00004000!
+00:05:21.118 | ServiceNv Create: Created map 417 with size 0x00004000!
+00:05:21.140 | ServiceNv Create: Created map 418 with size 0x00004000!
+00:05:21.174 | ServiceNv Create: Created map 419 with size 0x00004000!
+00:05:21.202 | ServiceNv Create: Created map 420 with size 0x00004000!
+00:05:21.214 | ServiceNv Create: Created map 421 with size 0x00004000!
+00:05:21.233 | ServiceNv Create: Created map 422 with size 0x00004000!
+00:05:21.253 | ServiceNv Create: Created map 423 with size 0x00004000!
+00:05:21.296 | ServiceNv Create: Created map 424 with size 0x00004000!
+00:05:21.330 | ServiceNv Create: Created map 425 with size 0x00004000!
+00:05:21.362 | ServiceNv Create: Created map 426 with size 0x00004000!
+00:05:21.395 | ServiceNv Create: Created map 427 with size 0x00004000!
+00:05:21.428 | ServiceNv Create: Created map 428 with size 0x00004000!
+00:05:21.498 | ServiceNv Create: Created map 429 with size 0x00004000!
+00:05:21.899 | ServiceNv Create: Created map 430 with size 0x00004000!
+00:05:21.926 | ServiceNv Create: Created map 431 with size 0x00004000!
+00:05:21.986 | ServiceNv Create: Created map 432 with size 0x00004000!
+00:05:22.007 | ServiceNv Create: Created map 433 with size 0x00004000!
+00:05:22.044 | ServiceNv Create: Created map 434 with size 0x00004000!
+00:05:22.059 | ServiceNv Create: Created map 435 with size 0x00004000!
+00:05:22.083 | ServiceNv Create: Created map 436 with size 0x00004000!
+00:05:22.096 | ServiceNv Create: Created map 437 with size 0x00004000!
+00:05:22.117 | ServiceNv Create: Created map 438 with size 0x00004000!
+00:05:22.145 | ServiceNv Create: Created map 439 with size 0x00004000!
+00:05:22.161 | ServiceNv Create: Created map 440 with size 0x00004000!
+00:05:22.167 | ServiceNv Create: Created map 441 with size 0x00004000!
+00:05:22.180 | ServiceNv Create: Created map 442 with size 0x00004000!
+00:05:22.203 | ServiceNv Create: Created map 443 with size 0x00004000!
+00:05:23.095 | ServiceNv Create: Created map 444 with size 0x002b4000!
+00:05:23.932 | ServiceNv Create: Created map 445 with size 0x00004000!
+00:05:23.972 | ServiceNv Create: Created map 446 with size 0x00004000!
+00:05:23.994 | ServiceNv Create: Created map 447 with size 0x00004000!
+00:05:24.057 | ServiceNv Create: Created map 448 with size 0x00004000!
+00:05:24.108 | ServiceNv Create: Created map 449 with size 0x00004000!
+00:05:24.121 | ServiceNv Create: Created map 450 with size 0x00004000!
+00:05:24.141 | ServiceNv Create: Created map 451 with size 0x00006000!
+00:05:24.150 | ServiceNv Create: Created map 452 with size 0x001b3000!
+00:05:24.260 | ServiceNv Create: Created map 453 with size 0x00004000!
+00:05:24.271 | ServiceNv Create: Created map 454 with size 0x00020000!
+00:05:24.289 | ServiceNv Create: Created map 455 with size 0x00004000!
+00:05:24.308 | ServiceNv Create: Created map 456 with size 0x00004000!
+00:05:24.320 | ServiceNv Create: Created map 457 with size 0x00004000!
+00:05:24.345 | ServiceNv Create: Created map 458 with size 0x00004000!
+00:05:24.373 | ServiceNv Create: Created map 459 with size 0x00004000!
+00:05:24.400 | ServiceNv Create: Created map 460 with size 0x00004000!
+00:05:24.430 | ServiceNv Create: Created map 461 with size 0x00004000!
+00:05:24.440 | ServiceNv Create: Created map 462 with size 0x00004000!
+00:05:24.501 | ServiceNv Create: Created map 463 with size 0x00004000!
+00:05:24.523 | ServiceNv Create: Created map 464 with size 0x00004000!
+00:05:24.533 | ServiceNv Create: Created map 465 with size 0x00004000!
+00:05:24.576 | ServiceNv Create: Created map 466 with size 0x00004000!
+00:05:24.612 | ServiceNv Create: Created map 467 with size 0x00004000!
+00:05:24.644 | ServiceNv Create: Created map 468 with size 0x00004000!
+00:05:24.655 | ServiceNv Create: Created map 469 with size 0x00004000!
+00:05:24.701 | ServiceNv Create: Created map 470 with size 0x00004000!
+00:05:24.721 | ServiceNv Create: Created map 471 with size 0x00004000!
+00:05:24.740 | ServiceNv Create: Created map 472 with size 0x00004000!
+00:05:24.745 | ServiceNv Create: Created map 473 with size 0x00004000!
+00:05:24.751 | ServiceNv Create: Created map 474 with size 0x00004000!
+00:05:24.773 | ServiceNv Create: Created map 475 with size 0x00004000!
+00:05:24.791 | ServiceNv Create: Created map 476 with size 0x00004000!
+00:05:24.815 | ServiceNv Create: Created map 477 with size 0x00004000!
+00:05:24.841 | ServiceNv Create: Created map 478 with size 0x00004000!
+00:05:24.848 | ServiceNv Create: Created map 479 with size 0x00004000!
+00:05:24.853 | ServiceNv Create: Created map 480 with size 0x00004000!
+00:05:24.867 | ServiceNv Create: Created map 481 with size 0x00004000!
+00:05:24.876 | ServiceNv Create: Created map 482 with size 0x00004000!
+00:05:24.888 | ServiceNv Create: Created map 483 with size 0x00004000!
+00:05:24.893 | ServiceNv Create: Created map 484 with size 0x00004000!
+00:05:24.905 | ServiceNv Create: Created map 485 with size 0x00004000!
+00:05:24.931 | ServiceNv Create: Created map 486 with size 0x00004000!
+00:05:24.957 | ServiceNv Create: Created map 487 with size 0x00004000!
+00:05:25.000 | ServiceNv Create: Created map 488 with size 0x00004000!
+00:05:25.014 | ServiceNv Create: Created map 489 with size 0x00004000!
+00:05:25.029 | ServiceNv Create: Created map 490 with size 0x00004000!
+00:05:25.035 | ServiceNv Create: Created map 491 with size 0x00004000!
+00:05:25.047 | ServiceNv Create: Created map 492 with size 0x00004000!
+00:05:25.062 | ServiceNv Create: Created map 493 with size 0x00004000!
+00:05:32.508 | ServiceNv Create: Created map 494 with size 0x00004000!
+00:05:32.579 | ServiceNv Create: Created map 495 with size 0x00004000!
+00:05:32.602 | ServiceNv Create: Created map 496 with size 0x00004000!
+00:05:32.667 | ServiceNv Create: Created map 497 with size 0x00004000!
+00:05:32.697 | ServiceNv Create: Created map 498 with size 0x00004000!
+00:05:32.749 | ServiceNv Create: Created map 499 with size 0x00004000!
+00:05:32.768 | ServiceNv Create: Created map 500 with size 0x00004000!
+00:05:32.831 | ServiceNv Create: Created map 501 with size 0x00004000!
+00:05:32.872 | ServiceNv Create: Created map 502 with size 0x00004000!
+00:05:32.884 | ServiceNv Create: Created map 503 with size 0x00004000!
+00:05:32.894 | ServiceNv Create: Created map 504 with size 0x00004000!
+00:05:32.905 | ServiceNv Create: Created map 505 with size 0x00004000!
+00:05:32.914 | ServiceNv Create: Created map 506 with size 0x00004000!
+00:05:32.922 | ServiceNv Create: Created map 507 with size 0x00004000!
+00:05:32.936 | ServiceNv Create: Created map 508 with size 0x00004000!
+00:05:32.955 | ServiceNv Create: Created map 509 with size 0x00004000!
+00:05:32.961 | ServiceNv Create: Created map 510 with size 0x00004000!
+00:05:32.973 | ServiceNv Create: Created map 511 with size 0x00004000!
+00:05:32.981 | ServiceNv Create: Created map 512 with size 0x00004000!
+00:05:32.994 | ServiceNv Create: Created map 513 with size 0x00004000!
+00:05:33.002 | ServiceNv Create: Created map 514 with size 0x00004000!
+00:05:33.029 | ServiceNv Create: Created map 515 with size 0x00004000!
+00:05:33.041 | ServiceNv Create: Created map 516 with size 0x00004000!
+00:05:33.054 | ServiceNv Create: Created map 517 with size 0x00004000!
+00:05:33.068 | ServiceNv Create: Created map 518 with size 0x00004000!
+00:05:33.081 | ServiceNv Create: Created map 519 with size 0x00004000!
+00:05:33.095 | ServiceNv Create: Created map 520 with size 0x00004000!
+00:05:33.126 | ServiceNv Create: Created map 521 with size 0x00004000!
+00:05:33.139 | ServiceNv Create: Created map 522 with size 0x00004000!
+00:05:33.149 | ServiceNv Create: Created map 523 with size 0x00004000!
+00:05:33.164 | ServiceNv Create: Created map 524 with size 0x00004000!
+00:05:33.190 | ServiceNv Create: Created map 525 with size 0x00004000!
+00:05:33.200 | ServiceNv Create: Created map 526 with size 0x00004000!
+00:05:33.209 | ServiceNv Create: Created map 527 with size 0x00004000!
+00:05:33.229 | ServiceNv Create: Created map 528 with size 0x00004000!
+00:05:33.239 | ServiceNv Create: Created map 529 with size 0x00004000!
+00:05:33.263 | ServiceNv Create: Created map 530 with size 0x00004000!
+00:05:33.273 | ServiceNv Create: Created map 531 with size 0x00004000!
+00:05:33.282 | ServiceNv Create: Created map 532 with size 0x00004000!
+00:05:33.293 | ServiceNv Create: Created map 533 with size 0x00004000!
+00:05:33.304 | ServiceNv Create: Created map 534 with size 0x00004000!
+00:05:33.316 | ServiceNv Create: Created map 535 with size 0x00004000!
+00:05:33.340 | ServiceNv Create: Created map 536 with size 0x00004000!
+00:05:33.348 | ServiceNv Create: Created map 537 with size 0x00004000!
+00:05:33.356 | ServiceNv Create: Created map 538 with size 0x00004000!
+00:05:33.366 | ServiceNv Create: Created map 539 with size 0x00004000!
+00:05:33.394 | ServiceNv Create: Created map 540 with size 0x00004000!
+00:05:33.404 | ServiceNv Create: Created map 541 with size 0x00004000!
+00:05:33.411 | ServiceNv Create: Created map 542 with size 0x00004000!
+00:05:33.435 | ServiceNv Create: Created map 543 with size 0x00004000!
+00:05:33.443 | ServiceNv Create: Created map 544 with size 0x00004000!
+00:05:33.449 | ServiceNv Create: Created map 545 with size 0x00004000!
+00:05:33.464 | ServiceNv Create: Created map 546 with size 0x00004000!
+00:05:33.487 | ServiceNv Create: Created map 547 with size 0x00004000!
+00:05:33.495 | ServiceNv Create: Created map 548 with size 0x00004000!
+00:05:33.505 | ServiceNv Create: Created map 549 with size 0x00004000!
+00:05:33.515 | ServiceNv Create: Created map 550 with size 0x00004000!
+00:05:33.534 | ServiceNv Create: Created map 551 with size 0x00004000!
+00:05:33.541 | ServiceNv Create: Created map 552 with size 0x00004000!
+00:05:33.549 | ServiceNv Create: Created map 553 with size 0x00004000!
+00:05:33.570 | ServiceNv Create: Created map 554 with size 0x00004000!
+00:05:33.577 | ServiceNv Create: Created map 555 with size 0x00004000!
+00:05:33.588 | ServiceNv Create: Created map 556 with size 0x00004000!
+00:05:33.597 | ServiceNv Create: Created map 557 with size 0x00004000!
+00:05:33.607 | ServiceNv Create: Created map 558 with size 0x00004000!
+00:05:33.626 | ServiceNv Create: Created map 559 with size 0x00004000!
+00:05:33.640 | ServiceNv Create: Created map 560 with size 0x00004000!
+00:05:33.663 | ServiceNv Create: Created map 561 with size 0x00004000!
+00:05:33.675 | ServiceNv Create: Created map 562 with size 0x00004000!
+00:05:33.684 | ServiceNv Create: Created map 563 with size 0x00004000!
+00:05:33.694 | ServiceNv Create: Created map 564 with size 0x00004000!
+00:05:33.706 | ServiceNv Create: Created map 565 with size 0x00004000!
+00:05:33.714 | ServiceNv Create: Created map 566 with size 0x00004000!
+00:05:33.724 | ServiceNv Create: Created map 567 with size 0x00004000!
+00:05:33.738 | ServiceNv Create: Created map 568 with size 0x00004000!
+00:05:33.758 | ServiceNv Create: Created map 569 with size 0x00004000!
+00:05:33.766 | ServiceNv Create: Created map 570 with size 0x00004000!
+00:05:33.775 | ServiceNv Create: Created map 571 with size 0x00004000!
+00:05:33.783 | ServiceNv Create: Created map 572 with size 0x00004000!
+00:05:33.805 | ServiceNv Create: Created map 573 with size 0x00004000!
+00:05:33.812 | ServiceNv Create: Created map 574 with size 0x00004000!
+00:05:33.827 | ServiceNv Create: Created map 575 with size 0x00004000!
+00:05:33.837 | ServiceNv Create: Created map 576 with size 0x00004000!
+00:05:33.846 | ServiceNv Create: Created map 577 with size 0x00004000!
+00:05:33.860 | ServiceNv Create: Created map 578 with size 0x00004000!
+00:05:33.870 | ServiceNv Create: Created map 579 with size 0x00004000!
+00:05:33.881 | ServiceNv Create: Created map 580 with size 0x00004000!
+00:05:33.912 | ServiceNv Create: Created map 581 with size 0x00004000!
+00:05:33.926 | ServiceNv Create: Created map 582 with size 0x00004000!
+00:05:33.938 | ServiceNv Create: Created map 583 with size 0x00004000!
+00:05:33.946 | ServiceNv Create: Created map 584 with size 0x00004000!
+00:05:33.974 | ServiceNv Create: Created map 585 with size 0x00004000!
+00:05:33.983 | ServiceNv Create: Created map 586 with size 0x00004000!
+00:05:33.996 | ServiceNv Create: Created map 587 with size 0x00004000!
+00:05:34.005 | ServiceNv Create: Created map 588 with size 0x00004000!
+00:05:34.029 | ServiceNv Create: Created map 589 with size 0x00004000!
+00:05:34.048 | ServiceNv Create: Created map 590 with size 0x00004000!
+00:05:34.057 | ServiceNv Create: Created map 591 with size 0x00004000!
+00:05:34.063 | ServiceNv Create: Created map 592 with size 0x00004000!
+00:05:34.072 | ServiceNv Create: Created map 593 with size 0x00004000!
+00:05:34.079 | ServiceNv Create: Created map 594 with size 0x00004000!
+00:05:34.098 | ServiceNv Create: Created map 595 with size 0x00004000!
+00:05:34.106 | ServiceNv Create: Created map 596 with size 0x00004000!
+00:05:34.115 | ServiceNv Create: Created map 597 with size 0x00004000!
+00:05:34.125 | ServiceNv Create: Created map 598 with size 0x00004000!
+00:05:34.136 | ServiceNv Create: Created map 599 with size 0x00004000!
+00:05:34.142 | ServiceNv Create: Created map 600 with size 0x00004000!
+00:05:34.150 | ServiceNv Create: Created map 601 with size 0x00004000!
+00:05:34.157 | ServiceNv Create: Created map 602 with size 0x00004000!
+00:05:34.163 | ServiceNv Create: Created map 603 with size 0x00004000!
+00:05:34.172 | ServiceNv Create: Created map 604 with size 0x00004000!
+00:05:34.190 | ServiceNv Create: Created map 605 with size 0x00004000!
+00:05:34.200 | ServiceNv Create: Created map 606 with size 0x00004000!
+00:05:34.206 | ServiceNv Create: Created map 607 with size 0x00004000!
+00:05:34.212 | ServiceNv Create: Created map 608 with size 0x00004000!
+00:05:34.233 | ServiceNv Create: Created map 609 with size 0x00004000!
+00:05:34.240 | ServiceNv Create: Created map 610 with size 0x00004000!
+00:05:34.250 | ServiceNv Create: Created map 611 with size 0x00004000!
+00:05:34.260 | ServiceNv Create: Created map 612 with size 0x00004000!
+00:05:34.267 | ServiceNv Create: Created map 613 with size 0x00004000!
+00:05:34.275 | ServiceNv Create: Created map 614 with size 0x00004000!
+00:05:34.284 | ServiceNv Create: Created map 615 with size 0x00004000!
+00:05:34.307 | ServiceNv Create: Created map 616 with size 0x00004000!
+00:05:34.316 | ServiceNv Create: Created map 617 with size 0x00004000!
+00:05:34.334 | ServiceNv Create: Created map 618 with size 0x00004000!
+00:05:34.339 | ServiceNv Create: Created map 619 with size 0x00004000!
+00:05:34.346 | ServiceNv Create: Created map 620 with size 0x00004000!
+00:05:34.358 | ServiceNv Create: Created map 621 with size 0x00004000!
+00:05:34.368 | ServiceNv Create: Created map 622 with size 0x00004000!
+00:05:34.373 | ServiceNv Create: Created map 623 with size 0x00004000!
+00:05:34.391 | ServiceNv Create: Created map 624 with size 0x00004000!
+00:05:34.398 | ServiceNv Create: Created map 625 with size 0x00004000!
+00:05:34.406 | ServiceNv Create: Created map 626 with size 0x00004000!
+00:05:34.413 | ServiceNv Create: Created map 627 with size 0x00004000!
+00:05:34.443 | ServiceNv Create: Created map 628 with size 0x00004000!
+00:05:34.456 | ServiceNv Create: Created map 629 with size 0x00004000!
+00:05:34.463 | ServiceNv Create: Created map 630 with size 0x00004000!
+00:05:34.471 | ServiceNv Create: Created map 631 with size 0x00004000!
+00:05:34.477 | ServiceNv Create: Created map 632 with size 0x00004000!
+00:05:34.488 | ServiceNv Create: Created map 633 with size 0x00004000!
+00:05:34.496 | ServiceNv Create: Created map 634 with size 0x00004000!
+00:05:34.505 | ServiceNv Create: Created map 635 with size 0x00004000!
+00:05:34.512 | ServiceNv Create: Created map 636 with size 0x00004000!
+00:05:34.529 | ServiceNv Create: Created map 637 with size 0x00004000!
+00:05:34.557 | ServiceNv Create: Created map 638 with size 0x00004000!
+00:05:34.565 | ServiceNv Create: Created map 639 with size 0x00004000!
+00:05:34.585 | ServiceNv Create: Created map 640 with size 0x00004000!
+00:05:34.592 | ServiceNv Create: Created map 641 with size 0x00004000!
+00:05:34.603 | ServiceNv Create: Created map 642 with size 0x00004000!
+00:05:34.610 | ServiceNv Create: Created map 643 with size 0x00004000!
+00:05:34.624 | ServiceNv Create: Created map 644 with size 0x00004000!
+00:05:34.638 | ServiceNv Create: Created map 645 with size 0x00004000!
+00:05:34.645 | ServiceNv Create: Created map 646 with size 0x00004000!
+00:05:34.657 | ServiceNv Create: Created map 647 with size 0x00004000!
+00:05:34.664 | ServiceNv Create: Created map 648 with size 0x00004000!
+00:05:34.697 | ServiceNv Create: Created map 649 with size 0x00004000!
+00:05:34.705 | ServiceNv Create: Created map 650 with size 0x00004000!
+00:05:34.711 | ServiceNv Create: Created map 651 with size 0x00004000!
+00:05:34.721 | ServiceNv Create: Created map 652 with size 0x00004000!
+00:05:34.734 | ServiceNv Create: Created map 653 with size 0x00004000!
+00:05:34.740 | ServiceNv Create: Created map 654 with size 0x00004000!
+00:05:34.746 | ServiceNv Create: Created map 655 with size 0x00004000!
+00:05:34.758 | ServiceNv Create: Created map 656 with size 0x00004000!
+00:05:34.767 | ServiceNv Create: Created map 657 with size 0x00004000!
+00:05:34.773 | ServiceNv Create: Created map 658 with size 0x00004000!
+00:05:34.780 | ServiceNv Create: Created map 659 with size 0x00004000!
+00:05:34.791 | ServiceNv Create: Created map 660 with size 0x00004000!
+00:05:34.797 | ServiceNv Create: Created map 661 with size 0x00004000!
+00:05:34.807 | ServiceNv Create: Created map 662 with size 0x00004000!
+00:05:34.813 | ServiceNv Create: Created map 663 with size 0x00004000!
+00:05:34.832 | ServiceNv Create: Created map 664 with size 0x00004000!
+00:05:34.839 | ServiceNv Create: Created map 665 with size 0x00004000!
+00:05:34.845 | ServiceNv Create: Created map 666 with size 0x00004000!
+00:05:34.859 | ServiceNv Create: Created map 667 with size 0x00004000!
+00:05:34.891 | ServiceNv Create: Created map 668 with size 0x00004000!
+00:05:34.901 | ServiceNv Create: Created map 669 with size 0x00004000!
+00:05:34.907 | ServiceNv Create: Created map 670 with size 0x00004000!
+00:05:34.915 | ServiceNv Create: Created map 671 with size 0x00004000!
+00:05:34.926 | ServiceNv Create: Created map 672 with size 0x00004000!
+00:05:34.937 | ServiceNv Create: Created map 673 with size 0x00004000!
+00:05:34.944 | ServiceNv Create: Created map 674 with size 0x00004000!
+00:05:34.956 | ServiceNv Create: Created map 675 with size 0x00004000!
+00:05:34.963 | ServiceNv Create: Created map 676 with size 0x00004000!
+00:05:34.973 | ServiceNv Create: Created map 677 with size 0x00004000!
+00:05:34.983 | ServiceNv Create: Created map 678 with size 0x00004000!
+00:05:34.991 | ServiceNv Create: Created map 679 with size 0x00004000!
+00:05:35.002 | ServiceNv Create: Created map 680 with size 0x00004000!
+00:05:35.010 | ServiceNv Create: Created map 681 with size 0x00004000!
+00:05:35.034 | ServiceNv Create: Created map 682 with size 0x00004000!
+00:05:35.046 | ServiceNv Create: Created map 683 with size 0x00004000!
+00:05:35.060 | ServiceNv Create: Created map 684 with size 0x00004000!
+00:05:35.071 | ServiceNv Create: Created map 685 with size 0x00004000!
+00:05:35.079 | ServiceNv Create: Created map 686 with size 0x00004000!
+00:05:35.106 | ServiceNv Create: Created map 687 with size 0x00004000!
+00:05:35.115 | ServiceNv Create: Created map 688 with size 0x00004000!
+00:05:35.138 | ServiceNv Create: Created map 689 with size 0x00004000!
+00:05:35.156 | ServiceNv Create: Created map 690 with size 0x00004000!
+00:05:35.171 | ServiceNv Create: Created map 691 with size 0x00004000!
+00:05:35.195 | ServiceNv Create: Created map 692 with size 0x00004000!
+00:05:35.204 | ServiceNv Create: Created map 693 with size 0x00004000!
+00:05:35.210 | ServiceNv Create: Created map 694 with size 0x00004000!
+00:05:35.228 | ServiceNv Create: Created map 695 with size 0x00004000!
+00:05:35.239 | ServiceNv Create: Created map 696 with size 0x00004000!
+00:05:35.246 | ServiceNv Create: Created map 697 with size 0x00004000!
+00:05:35.273 | ServiceNv Create: Created map 698 with size 0x00004000!
+00:05:35.283 | ServiceNv Create: Created map 699 with size 0x00004000!
+00:05:35.295 | ServiceNv Create: Created map 700 with size 0x00004000!
+00:05:35.304 | ServiceNv Create: Created map 701 with size 0x00004000!
+00:05:35.310 | ServiceNv Create: Created map 702 with size 0x00004000!
+00:05:35.332 | ServiceNv Create: Created map 703 with size 0x00004000!
+00:05:35.341 | ServiceNv Create: Created map 704 with size 0x00004000!
+00:05:35.351 | ServiceNv Create: Created map 705 with size 0x00004000!
+00:05:35.800 | ServiceNv Create: Created map 706 with size 0x000fa000!
+00:05:35.865 | GUI.RenderLoop SurfaceFlinger WaitForever: Android fence didn't signal in 3000 ms
+00:05:36.244 | ServiceNv Create: Created map 707 with size 0x003b7000!
+00:05:36.258 | ServiceNv Create: Created map 708 with size 0x003b7000!
+00:05:36.273 | ServiceNv Create: Created map 709 with size 0x00040000!
+00:05:36.282 | ServiceNv Create: Created map 710 with size 0x00040000!
+00:05:36.292 | ServiceNv Create: Created map 711 with size 0x00040000!
+00:05:36.302 | ServiceNv Create: Created map 712 with size 0x00040000!
+00:05:36.324 | ServiceNv Create: Created map 713 with size 0x00040000!
+00:05:36.335 | ServiceNv Create: Created map 714 with size 0x00040000!
+00:05:36.343 | ServiceNv Create: Created map 715 with size 0x00040000!
+00:05:36.351 | ServiceNv Create: Created map 716 with size 0x00040000!
+00:05:36.370 | ServiceNv Create: Created map 717 with size 0x00040000!
+00:05:36.378 | ServiceNv Create: Created map 718 with size 0x00040000!
+00:05:36.386 | ServiceNv Create: Created map 719 with size 0x00040000!
+00:05:36.392 | ServiceNv Create: Created map 720 with size 0x00040000!
+00:05:36.399 | ServiceNv Create: Created map 721 with size 0x00040000!
+00:05:36.417 | ServiceNv Create: Created map 722 with size 0x00040000!
+00:05:36.427 | ServiceNv Create: Created map 723 with size 0x00040000!
+00:05:36.434 | ServiceNv Create: Created map 724 with size 0x00040000!
+00:05:36.442 | ServiceNv Create: Created map 725 with size 0x00040000!
+00:05:36.449 | ServiceNv Create: Created map 726 with size 0x00040000!
+00:05:36.456 | ServiceNv Create: Created map 727 with size 0x00040000!
+00:05:36.472 | ServiceNv Create: Created map 728 with size 0x00040000!
+00:05:36.499 | ServiceNv Create: Created map 729 with size 0x00040000!
+00:05:36.505 | ServiceNv Create: Created map 730 with size 0x00040000!
+00:05:36.511 | ServiceNv Create: Created map 731 with size 0x00040000!
+00:05:36.518 | ServiceNv Create: Created map 732 with size 0x00040000!
+00:05:36.525 | ServiceNv Create: Created map 733 with size 0x00040000!
+00:05:36.544 | ServiceNv Create: Created map 734 with size 0x00040000!
+00:05:36.557 | ServiceNv Create: Created map 735 with size 0x00040000!
+00:05:36.569 | ServiceNv Create: Created map 736 with size 0x00040000!
+00:05:36.576 | ServiceNv Create: Created map 737 with size 0x00040000!
+00:05:36.593 | ServiceNv Create: Created map 738 with size 0x00040000!
+00:05:36.602 | ServiceNv Create: Created map 739 with size 0x00040000!
+00:05:36.612 | ServiceNv Create: Created map 740 with size 0x00040000!
+00:05:36.625 | ServiceNv Create: Created map 741 with size 0x00040000!
+00:05:36.635 | ServiceNv Create: Created map 742 with size 0x00040000!
+00:05:36.641 | ServiceNv Create: Created map 743 with size 0x00040000!
+00:05:36.658 | ServiceNv Create: Created map 744 with size 0x00040000!
+00:05:36.668 | ServiceNv Create: Created map 745 with size 0x00040000!
+00:05:36.678 | ServiceNv Create: Created map 746 with size 0x00040000!
+00:05:36.686 | ServiceNv Create: Created map 747 with size 0x00040000!
+00:05:36.694 | ServiceNv Create: Created map 748 with size 0x00040000!
+00:05:36.715 | ServiceNv Create: Created map 749 with size 0x00040000!
+00:05:36.723 | ServiceNv Create: Created map 750 with size 0x00040000!
+00:05:36.736 | ServiceNv Create: Created map 751 with size 0x00040000!
+00:05:36.745 | ServiceNv Create: Created map 752 with size 0x00040000!
+00:05:36.753 | ServiceNv Create: Created map 753 with size 0x00040000!
+00:05:36.760 | ServiceNv Create: Created map 754 with size 0x00040000!
+00:05:36.780 | ServiceNv Create: Created map 755 with size 0x00040000!
+00:05:36.790 | ServiceNv Create: Created map 756 with size 0x00040000!
+00:05:36.797 | ServiceNv Create: Created map 757 with size 0x00040000!
+00:05:36.804 | ServiceNv Create: Created map 758 with size 0x00040000!
+00:05:36.811 | ServiceNv Create: Created map 759 with size 0x00010000!
+00:05:36.829 | ServiceNv Create: Created map 760 with size 0x00010000!
+00:05:36.839 | ServiceNv Create: Created map 761 with size 0x00010000!
+00:05:36.845 | ServiceNv Create: Created map 762 with size 0x00010000!
+00:05:36.861 | ServiceNv Create: Created map 763 with size 0x00010000!
+00:05:36.866 | GUI.RenderLoop Gpu WaitOnSyncpoint: Wait on syncpoint 1 for threshold 9160 took more than 1000ms, resuming execution...
+00:05:36.884 | ServiceNv Create: Created map 764 with size 0x00010000!
+00:05:36.938 | ServiceNv Create: Created map 765 with size 0x00010000!
+00:05:36.968 | ServiceNv Create: Created map 766 with size 0x00010000!
+00:05:36.998 | ServiceNv Create: Created map 767 with size 0x00010000!
+00:05:37.026 | ServiceNv Create: Created map 768 with size 0x00010000!
+00:05:37.075 | ServiceNv Create: Created map 769 with size 0x00010000!
+00:05:37.116 | ServiceNv Create: Created map 770 with size 0x00010000!
+00:05:37.154 | ServiceNv Create: Created map 771 with size 0x00010000!
+00:05:37.205 | ServiceNv Create: Created map 772 with size 0x00010000!
+00:05:37.227 | ServiceNv Create: Created map 773 with size 0x00010000!
+00:05:37.240 | ServiceNv Create: Created map 774 with size 0x00010000!
+00:05:37.247 | ServiceNv Create: Created map 775 with size 0x00010000!
+00:05:37.287 | ServiceNv Create: Created map 776 with size 0x00010000!
+00:05:37.305 | ServiceNv Create: Created map 777 with size 0x00010000!
+00:05:37.319 | ServiceNv Create: Created map 778 with size 0x00010000!
+00:05:37.336 | ServiceNv Create: Created map 779 with size 0x00010000!
+00:05:37.340 | ServiceNv Create: Created map 780 with size 0x00010000!
+00:05:37.360 | ServiceNv Create: Created map 781 with size 0x00010000!
+00:05:37.404 | ServiceNv Create: Created map 782 with size 0x00010000!
+00:05:37.419 | ServiceNv Create: Created map 783 with size 0x00010000!
+00:05:37.449 | ServiceNv Create: Created map 784 with size 0x00010000!
+00:05:37.462 | ServiceNv Create: Created map 785 with size 0x00010000!
+00:05:37.490 | ServiceNv Create: Created map 786 with size 0x00010000!
+00:05:37.509 | ServiceNv Create: Created map 787 with size 0x00010000!
+00:05:37.536 | ServiceNv Create: Created map 788 with size 0x00010000!
+00:05:37.542 | ServiceNv Create: Created map 789 with size 0x00010000!
+00:05:37.573 | ServiceNv Create: Created map 790 with size 0x00010000!
+00:05:37.595 | ServiceNv Create: Created map 791 with size 0x00010000!
+00:05:37.613 | ServiceNv Create: Created map 792 with size 0x00010000!
+00:05:37.644 | ServiceNv Create: Created map 793 with size 0x00010000!
+00:05:37.659 | ServiceNv Create: Created map 794 with size 0x00010000!
+00:05:37.694 | ServiceNv Create: Created map 795 with size 0x00010000!
+00:05:37.708 | ServiceNv Create: Created map 796 with size 0x00010000!
+00:05:37.743 | ServiceNv Create: Created map 797 with size 0x00010000!
+00:05:37.771 | ServiceNv Create: Created map 798 with size 0x00010000!
+00:05:37.782 | ServiceNv Create: Created map 799 with size 0x00010000!
+00:05:37.816 | ServiceNv Create: Created map 800 with size 0x00010000!
+00:05:37.828 | ServiceNv Create: Created map 801 with size 0x00010000!
+00:05:37.850 | ServiceNv Create: Created map 802 with size 0x00010000!
+00:05:37.874 | ServiceNv Create: Created map 803 with size 0x00010000!
+00:05:37.905 | ServiceNv Create: Created map 804 with size 0x00010000!
+00:05:37.918 | ServiceNv Create: Created map 805 with size 0x00010000!
+00:05:37.940 | ServiceNv Create: Created map 806 with size 0x00010000!
+00:05:37.959 | ServiceNv Create: Created map 807 with size 0x00010000!
+00:05:37.974 | ServiceNv Create: Created map 808 with size 0x00010000!
+00:05:37.980 | ServiceNv Create: Created map 809 with size 0x00040000!
+00:05:38.011 | ServiceNv Create: Created map 810 with size 0x00040000!
+00:05:38.026 | ServiceNv Create: Created map 811 with size 0x00040000!
+00:05:38.042 | ServiceNv Create: Created map 812 with size 0x00040000!
+00:05:38.054 | ServiceNv Create: Created map 813 with size 0x00040000!
+00:05:38.068 | ServiceNv Create: Created map 814 with size 0x00040000!
+00:05:38.090 | ServiceNv Create: Created map 815 with size 0x00040000!
+00:05:38.111 | ServiceNv Create: Created map 816 with size 0x00040000!
+00:05:38.130 | ServiceNv Create: Created map 817 with size 0x00040000!
+00:05:38.145 | ServiceNv Create: Created map 818 with size 0x00040000!
+00:05:38.154 | ServiceNv Create: Created map 819 with size 0x00040000!
+00:05:38.160 | ServiceNv Create: Created map 820 with size 0x00040000!
+00:05:38.189 | ServiceNv Create: Created map 821 with size 0x00040000!
+00:05:38.203 | ServiceNv Create: Created map 822 with size 0x00040000!
+00:05:38.211 | ServiceNv Create: Created map 823 with size 0x00040000!
+00:05:38.227 | ServiceNv Create: Created map 824 with size 0x00040000!
+00:05:38.241 | ServiceNv Create: Created map 825 with size 0x00040000!
+00:05:38.260 | ServiceNv Create: Created map 826 with size 0x00040000!
+00:05:38.282 | ServiceNv Create: Created map 827 with size 0x00040000!
+00:05:38.305 | ServiceNv Create: Created map 828 with size 0x00040000!
+00:05:38.313 | ServiceNv Create: Created map 829 with size 0x00040000!
+00:05:38.342 | ServiceNv Create: Created map 830 with size 0x00040000!
+00:05:38.370 | ServiceNv Create: Created map 831 with size 0x00040000!
+00:05:38.392 | ServiceNv Create: Created map 832 with size 0x00040000!
+00:05:38.425 | ServiceNv Create: Created map 833 with size 0x00040000!
+00:05:38.476 | ServiceNv Create: Created map 834 with size 0x00040000!
+00:05:38.500 | ServiceNv Create: Created map 835 with size 0x00040000!
+00:05:38.520 | ServiceNv Create: Created map 836 with size 0x00040000!
+00:05:38.544 | ServiceNv Create: Created map 837 with size 0x00040000!
+00:05:38.590 | ServiceNv Create: Created map 838 with size 0x00040000!
+00:05:38.606 | ServiceNv Create: Created map 839 with size 0x00040000!
+00:05:38.636 | ServiceNv Create: Created map 840 with size 0x00040000!
+00:05:38.645 | ServiceNv Create: Created map 841 with size 0x00040000!
+00:05:38.671 | ServiceNv Create: Created map 842 with size 0x00040000!
+00:05:38.697 | ServiceNv Create: Created map 843 with size 0x00040000!
+00:05:38.718 | ServiceNv Create: Created map 844 with size 0x00040000!
+00:05:38.740 | ServiceNv Create: Created map 845 with size 0x00040000!
+00:05:38.766 | ServiceNv Create: Created map 846 with size 0x00040000!
+00:05:38.784 | ServiceNv Create: Created map 847 with size 0x00040000!
+00:05:38.831 | ServiceNv Create: Created map 848 with size 0x00040000!
+00:05:38.841 | ServiceNv Create: Created map 849 with size 0x00040000!
+00:05:38.879 | ServiceNv Create: Created map 850 with size 0x00040000!
+00:05:38.923 | ServiceNv Create: Created map 851 with size 0x00040000!
+00:05:38.950 | ServiceNv Create: Created map 852 with size 0x00040000!
+00:05:38.971 | ServiceNv Create: Created map 853 with size 0x00040000!
+00:05:38.977 | ServiceNv Create: Created map 854 with size 0x00040000!
+00:05:39.000 | ServiceNv Create: Created map 855 with size 0x00040000!
+00:05:39.043 | ServiceNv Create: Created map 856 with size 0x00040000!
+00:05:39.075 | ServiceNv Create: Created map 857 with size 0x00040000!
+00:05:39.103 | ServiceNv Create: Created map 858 with size 0x00040000!
+00:05:39.116 | ServiceNv Create: Created map 859 with size 0x00040000!
+00:05:39.122 | ServiceNv Create: Created map 860 with size 0x00040000!
+00:05:39.138 | ServiceNv Create: Created map 861 with size 0x00040000!
+00:05:39.171 | ServiceNv Create: Created map 862 with size 0x00040000!
+00:05:39.203 | ServiceNv Create: Created map 863 with size 0x00040000!
+00:05:39.214 | ServiceNv Create: Created map 864 with size 0x00040000!
+00:05:39.222 | ServiceNv Create: Created map 865 with size 0x00040000!
+00:05:39.244 | ServiceNv Create: Created map 866 with size 0x00040000!
+00:05:39.261 | ServiceNv Create: Created map 867 with size 0x00040000!
+00:05:39.274 | ServiceNv Create: Created map 868 with size 0x00040000!
+00:05:39.303 | ServiceNv Create: Created map 869 with size 0x00040000!
+00:05:39.341 | ServiceNv Create: Created map 870 with size 0x00040000!
+00:05:39.378 | ServiceNv Create: Created map 871 with size 0x00040000!
+00:05:39.396 | ServiceNv Create: Created map 872 with size 0x00040000!
+00:05:39.423 | ServiceNv Create: Created map 873 with size 0x00040000!
+00:05:39.445 | ServiceNv Create: Created map 874 with size 0x00040000!
+00:05:39.450 | ServiceNv Create: Created map 875 with size 0x00040000!
+00:05:39.458 | ServiceNv Create: Created map 876 with size 0x00040000!
+00:05:39.468 | ServiceNv Create: Created map 877 with size 0x00040000!
+00:05:39.499 | ServiceNv Create: Created map 878 with size 0x00040000!
+00:05:39.529 | ServiceNv Create: Created map 879 with size 0x00040000!
+00:05:39.543 | ServiceNv Create: Created map 880 with size 0x00040000!
+00:05:39.575 | ServiceNv Create: Created map 881 with size 0x00010000!
+00:05:39.592 | ServiceNv Create: Created map 882 with size 0x00010000!
+00:05:39.609 | ServiceNv Create: Created map 883 with size 0x00010000!
+00:05:39.615 | ServiceNv Create: Created map 884 with size 0x00010000!
+00:05:39.622 | ServiceNv Create: Created map 885 with size 0x00010000!
+00:05:39.627 | ServiceNv Create: Created map 886 with size 0x00010000!
+00:05:39.641 | ServiceNv Create: Created map 887 with size 0x00010000!
+00:05:39.670 | ServiceNv Create: Created map 888 with size 0x00010000!
+00:05:39.676 | ServiceNv Create: Created map 889 with size 0x00010000!
+00:05:39.683 | ServiceNv Create: Created map 890 with size 0x00010000!
+00:05:39.691 | ServiceNv Create: Created map 891 with size 0x00010000!
+00:05:39.712 | ServiceNv Create: Created map 892 with size 0x00010000!
+00:05:39.732 | ServiceNv Create: Created map 893 with size 0x00010000!
+00:05:39.740 | ServiceNv Create: Created map 894 with size 0x00010000!
+00:05:39.745 | ServiceNv Create: Created map 895 with size 0x00010000!
+00:05:39.758 | ServiceNv Create: Created map 896 with size 0x00010000!
+00:05:39.807 | ServiceNv Create: Created map 897 with size 0x00010000!
+00:05:39.841 | ServiceNv Create: Created map 898 with size 0x00010000!
+00:05:39.897 | ServiceNv Create: Created map 899 with size 0x00010000!
+00:05:39.922 | ServiceNv Create: Created map 900 with size 0x00010000!
+00:05:39.931 | ServiceNv Create: Created map 901 with size 0x00010000!
+00:05:39.970 | ServiceNv Create: Created map 902 with size 0x00010000!
+00:05:39.984 | ServiceNv Create: Created map 903 with size 0x00010000!
+00:05:40.001 | ServiceNv Create: Created map 904 with size 0x00010000!
+00:05:40.011 | ServiceNv Create: Created map 905 with size 0x00010000!
+00:05:40.039 | ServiceNv Create: Created map 906 with size 0x00010000!
+00:05:40.058 | ServiceNv Create: Created map 907 with size 0x00010000!
+00:05:40.099 | ServiceNv Create: Created map 908 with size 0x00010000!
+00:05:40.113 | ServiceNv Create: Created map 909 with size 0x00010000!
+00:05:40.143 | ServiceNv Create: Created map 910 with size 0x00010000!
+00:05:40.188 | ServiceNv Create: Created map 911 with size 0x00010000!
+00:05:40.209 | ServiceNv Create: Created map 912 with size 0x00010000!
+00:05:40.237 | ServiceNv Create: Created map 913 with size 0x00010000!
+00:05:40.246 | ServiceNv Create: Created map 914 with size 0x00010000!
+00:05:40.266 | ServiceNv Create: Created map 915 with size 0x00010000!
+00:05:40.282 | ServiceNv Create: Created map 916 with size 0x00010000!
+00:05:40.288 | ServiceNv Create: Created map 917 with size 0x00010000!
+00:05:40.300 | ServiceNv Create: Created map 918 with size 0x00004000!
+00:05:40.315 | ServiceNv Create: Created map 919 with size 0x00004000!
+00:05:40.340 | ServiceNv Create: Created map 920 with size 0x00004000!
+00:05:40.346 | ServiceNv Create: Created map 921 with size 0x00004000!
+00:05:40.354 | ServiceNv Create: Created map 922 with size 0x00004000!
+00:05:40.379 | ServiceNv Create: Created map 923 with size 0x00004000!
+00:05:40.388 | ServiceNv Create: Created map 924 with size 0x00004000!
+00:05:40.392 | ServiceNv Create: Created map 925 with size 0x00004000!
+00:05:40.421 | ServiceNv Create: Created map 926 with size 0x00004000!
+00:05:40.446 | ServiceNv Create: Created map 927 with size 0x00004000!
+00:05:40.471 | ServiceNv Create: Created map 928 with size 0x00004000!
+00:05:40.493 | ServiceNv Create: Created map 929 with size 0x00004000!
+00:05:40.524 | ServiceNv Create: Created map 930 with size 0x00004000!
+00:05:40.546 | ServiceNv Create: Created map 931 with size 0x00004000!
+00:05:40.553 | ServiceNv Create: Created map 932 with size 0x00004000!
+00:05:40.559 | ServiceNv Create: Created map 933 with size 0x00004000!
+00:05:40.579 | ServiceNv Create: Created map 934 with size 0x00004000!
+00:05:40.611 | ServiceNv Create: Created map 935 with size 0x00004000!
+00:05:40.621 | ServiceNv Create: Created map 936 with size 0x00004000!
+00:05:40.636 | ServiceNv Create: Created map 937 with size 0x00004000!
+00:05:40.640 | ServiceNv Create: Created map 938 with size 0x00004000!
+00:05:40.658 | ServiceNv Create: Created map 939 with size 0x00004000!
+00:05:40.681 | ServiceNv Create: Created map 940 with size 0x00004000!
+00:05:40.696 | ServiceNv Create: Created map 941 with size 0x00004000!
+00:05:40.703 | ServiceNv Create: Created map 942 with size 0x00004000!
+00:05:40.723 | ServiceNv Create: Created map 943 with size 0x00004000!
+00:05:40.740 | ServiceNv Create: Created map 944 with size 0x00004000!
+00:05:40.748 | ServiceNv Create: Created map 945 with size 0x00004000!
+00:05:40.754 | ServiceNv Create: Created map 946 with size 0x00004000!
+00:05:40.766 | ServiceNv Create: Created map 947 with size 0x00004000!
+00:05:40.788 | ServiceNv Create: Created map 948 with size 0x00004000!
+00:05:40.796 | ServiceNv Create: Created map 949 with size 0x00004000!
+00:05:40.801 | ServiceNv Create: Created map 950 with size 0x00004000!
+00:05:40.806 | ServiceNv Create: Created map 951 with size 0x00004000!
+00:05:40.815 | ServiceNv Create: Created map 952 with size 0x00004000!
+00:05:40.833 | ServiceNv Create: Created map 953 with size 0x00004000!
+00:05:40.844 | ServiceNv Create: Created map 954 with size 0x00004000!
+00:05:40.851 | ServiceNv Create: Created map 955 with size 0x00004000!
+00:05:40.857 | ServiceNv Create: Created map 956 with size 0x00004000!
+00:05:40.883 | ServiceNv Create: Created map 957 with size 0x00004000!
+00:05:40.909 | ServiceNv Create: Created map 958 with size 0x00004000!
+00:05:40.943 | ServiceNv Create: Created map 959 with size 0x00004000!
+00:05:40.954 | ServiceNv Create: Created map 960 with size 0x00004000!
+00:05:40.978 | ServiceNv Create: Created map 961 with size 0x00004000!
+00:05:41.015 | ServiceNv Create: Created map 962 with size 0x00004000!
+00:05:41.048 | ServiceNv Create: Created map 963 with size 0x00004000!
+00:05:41.071 | ServiceNv Create: Created map 964 with size 0x00004000!
+00:05:41.093 | ServiceNv Create: Created map 965 with size 0x00004000!
+00:05:41.119 | ServiceNv Create: Created map 966 with size 0x00004000!
+00:05:41.131 | ServiceNv Create: Created map 967 with size 0x00004000!
+00:05:41.155 | ServiceNv Create: Created map 968 with size 0x00004000!
+00:05:41.170 | ServiceNv Create: Created map 969 with size 0x00004000!
+00:05:41.181 | ServiceNv Create: Created map 970 with size 0x00004000!
+00:05:41.186 | ServiceNv Create: Created map 971 with size 0x00004000!
+00:05:41.191 | ServiceNv Create: Created map 972 with size 0x00004000!
+00:05:41.208 | ServiceNv Create: Created map 973 with size 0x00004000!
+00:05:41.234 | ServiceNv Create: Created map 974 with size 0x00004000!
+00:05:41.240 | ServiceNv Create: Created map 975 with size 0x00004000!
+00:05:41.268 | ServiceNv Create: Created map 976 with size 0x00004000!
+00:05:41.273 | ServiceNv Create: Created map 977 with size 0x00004000!
+00:05:41.294 | ServiceNv Create: Created map 978 with size 0x00004000!
+00:05:41.309 | ServiceNv Create: Created map 979 with size 0x00004000!
+00:05:41.321 | ServiceNv Create: Created map 980 with size 0x00004000!
+00:05:41.327 | ServiceNv Create: Created map 981 with size 0x00004000!
+00:05:41.353 | ServiceNv Create: Created map 982 with size 0x00004000!
+00:05:41.375 | ServiceNv Create: Created map 983 with size 0x00004000!
+00:05:41.400 | ServiceNv Create: Created map 984 with size 0x00004000!
+00:05:41.404 | ServiceNv Create: Created map 985 with size 0x00004000!
+00:05:41.409 | ServiceNv Create: Created map 986 with size 0x00004000!
+00:05:41.448 | ServiceNv Create: Created map 987 with size 0x00004000!
+00:05:41.495 | ServiceNv Create: Created map 988 with size 0x00004000!
+00:05:41.522 | ServiceNv Create: Created map 989 with size 0x00004000!
+00:05:41.537 | ServiceNv Create: Created map 990 with size 0x00004000!
+00:05:41.567 | ServiceNv Create: Created map 991 with size 0x00004000!
+00:05:41.603 | ServiceNv Create: Created map 992 with size 0x00004000!
+00:05:41.626 | ServiceNv Create: Created map 993 with size 0x00004000!
+00:05:41.655 | ServiceNv Create: Created map 994 with size 0x00004000!
+00:05:41.723 | ServiceNv Create: Created map 995 with size 0x00004000!
+00:05:41.757 | ServiceNv Create: Created map 996 with size 0x00004000!
+00:05:41.795 | ServiceNv Create: Created map 997 with size 0x00004000!
+00:05:41.831 | ServiceNv Create: Created map 998 with size 0x00004000!
+00:05:41.851 | ServiceNv Create: Created map 999 with size 0x00004000!
+00:05:41.893 | ServiceNv Create: Created map 1000 with size 0x00004000!
+00:05:41.909 | ServiceNv Create: Created map 1001 with size 0x00004000!
+00:05:41.933 | ServiceNv Create: Created map 1002 with size 0x00004000!
+00:05:42.011 | ServiceNv Create: Created map 1003 with size 0x00004000!
+00:05:42.027 | ServiceNv Create: Created map 1004 with size 0x00004000!
+00:05:42.049 | ServiceNv Create: Created map 1005 with size 0x00004000!
+00:05:42.062 | ServiceNv Create: Created map 1006 with size 0x00004000!
+00:05:42.068 | ServiceNv Create: Created map 1007 with size 0x00004000!
+00:05:42.080 | ServiceNv Create: Created map 1008 with size 0x00004000!
+00:05:42.095 | ServiceNv Create: Created map 1009 with size 0x00004000!
+00:05:42.115 | ServiceNv Create: Created map 1010 with size 0x00004000!
+00:05:42.136 | ServiceNv Create: Created map 1011 with size 0x00004000!
+00:05:42.145 | ServiceNv Create: Created map 1012 with size 0x00004000!
+00:05:42.169 | ServiceNv Create: Created map 1013 with size 0x00004000!
+00:05:42.180 | ServiceNv Create: Created map 1014 with size 0x00004000!
+00:05:42.186 | ServiceNv Create: Created map 1015 with size 0x00004000!
+00:05:42.192 | ServiceNv Create: Created map 1016 with size 0x00004000!
+00:05:42.230 | ServiceNv Create: Created map 1017 with size 0x00004000!
+00:05:42.244 | ServiceNv Create: Created map 1018 with size 0x00004000!
+00:05:42.249 | ServiceNv Create: Created map 1019 with size 0x00004000!
+00:05:42.270 | ServiceNv Create: Created map 1020 with size 0x00004000!
+00:05:42.283 | ServiceNv Create: Created map 1021 with size 0x00004000!
+00:05:42.303 | ServiceNv Create: Created map 1022 with size 0x00004000!
+00:05:42.313 | ServiceNv Create: Created map 1023 with size 0x00004000!
+00:05:42.325 | ServiceNv Create: Created map 1024 with size 0x00004000!
+00:05:42.346 | ServiceNv Create: Created map 1025 with size 0x00004000!
+00:05:42.366 | ServiceNv Create: Created map 1026 with size 0x00004000!
+00:05:42.396 | ServiceNv Create: Created map 1027 with size 0x00004000!
+00:05:42.411 | ServiceNv Create: Created map 1028 with size 0x00004000!
+00:05:42.433 | ServiceNv Create: Created map 1029 with size 0x00004000!
+00:05:42.477 | ServiceNv Create: Created map 1030 with size 0x00004000!
+00:05:42.496 | ServiceNv Create: Created map 1031 with size 0x00004000!
+00:05:42.515 | ServiceNv Create: Created map 1032 with size 0x00004000!
+00:05:42.535 | ServiceNv Create: Created map 1033 with size 0x00004000!
+00:05:42.544 | ServiceNv Create: Created map 1034 with size 0x00004000!
+00:05:42.562 | ServiceNv Create: Created map 1035 with size 0x00004000!
+00:05:42.581 | ServiceNv Create: Created map 1036 with size 0x00004000!
+00:05:42.587 | ServiceNv Create: Created map 1037 with size 0x00004000!
+00:05:42.595 | ServiceNv Create: Created map 1038 with size 0x00004000!
+00:05:42.620 | ServiceNv Create: Created map 1039 with size 0x00004000!
+00:05:42.643 | ServiceNv Create: Created map 1040 with size 0x00004000!
+00:05:42.649 | ServiceNv Create: Created map 1041 with size 0x00004000!
+00:05:42.656 | ServiceNv Create: Created map 1042 with size 0x00004000!
+00:05:43.046 | ServiceNv Create: Created map 1043 with size 0x003c0000!
+00:05:43.112 | ServiceNv Create: Created map 1044 with size 0x00384000!
+00:05:43.186 | ServiceNv Create: Created map 1045 with size 0x00004000!
+00:05:45.518 | ServiceNv Create: Created map 1046 with size 0x00040000!
+00:05:45.684 | ServiceNv Create: Created map 1047 with size 0x00014000!
+00:05:45.716 | ServiceNv Create: Created map 1048 with size 0x00014000!
+00:05:45.790 | ServiceNv Create: Created map 1049 with size 0x00002000!
+00:05:45.804 | ServiceNv Create: Created map 1050 with size 0x00004000!
+00:05:45.869 | ServiceNv Create: Created map 1051 with size 0x00008000!
+00:05:45.911 | ServiceNv Create: Created map 1052 with size 0x00480000!
+00:05:45.970 | ServiceNv Create: Created map 1053 with size 0x00320000!
+00:05:46.305 | ServiceNv Create: Created map 1054 with size 0x00004000!
+00:05:46.537 | ServiceNv Create: Created map 1055 with size 0x00005000!
+00:05:46.553 | ServiceNv Create: Created map 1056 with size 0x000de000!
+00:05:46.671 | ServiceNv Create: Created map 1057 with size 0x00004000!
+00:05:46.722 | ServiceNv Create: Created map 1058 with size 0x00001000!
+00:05:46.733 | ServiceNv Create: Created map 1059 with size 0x00174000!
+00:05:46.744 | ServiceNv Create: Created map 1060 with size 0x00004000!
+00:05:46.752 | ServiceNv Create: Created map 1061 with size 0x00002000!
+00:05:46.775 | ServiceNv Create: Created map 1062 with size 0x00004000!
+00:05:46.776 | ServiceNv Create: Created map 1063 with size 0x00001000!
+00:05:46.791 | ServiceNv Create: Created map 1064 with size 0x00001000!
+00:05:46.873 | ServiceNv Create: Created map 1065 with size 0x00004000!
+00:05:46.881 | ServiceNv Create: Created map 1066 with size 0x00017000!
+00:05:47.072 | ServiceNv Create: Created map 1067 with size 0x00004000!
+00:05:47.074 | ServiceNv Create: Created map 1068 with size 0x00008000!
+00:05:47.083 | ServiceNv Create: Created map 1069 with size 0x0002e000!
+00:05:47.094 | ServiceNv Create: Created map 1070 with size 0x00004000!
+00:05:47.587 | ServiceNv Create: Created map 1071 with size 0x00040000!
+00:05:47.667 | ServiceNv Create: Created map 1072 with size 0x00108000!
+00:05:47.684 | ServiceNv Create: Created map 1073 with size 0x00108000!
+00:05:47.694 | ServiceNv Create: Created map 1074 with size 0x000b0000!
+00:05:47.715 | ServiceNv Create: Created map 1075 with size 0x000b0000!
+00:05:47.733 | ServiceNv Create: Created map 1076 with size 0x00160000!
+00:05:47.740 | ServiceNv Create: Created map 1077 with size 0x00160000!
+00:05:47.759 | ServiceNv Create: Created map 1078 with size 0x00058000!
+00:05:47.791 | ServiceNv Create: Created map 1079 with size 0x00004000!
+00:05:47.828 | ServiceNv Create: Created map 1080 with size 0x00014000!
+00:05:47.836 | ServiceNv Create: Created map 1081 with size 0x00014000!
+00:05:48.306 | ServiceNv Create: Created map 1082 with size 0x00004000!
+00:05:54.793 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:05:54.794 | HLE.HostThread.49 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:05:54.794 | HLE.HostThread.49 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:05:54.795 | ServiceAudio GetAudioDeviceServiceWithRevisionInfo: Stubbed. appletResourceUserId: 0 - revisionInfo: 945177938
+00:05:54.795 | HLE.HostThread.49 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:05:54.795 | ServiceAudio GetActiveChannelCount: Stubbed. 
+00:05:54.796 | HLE.HostThread.49 KernelSvc PrintResult: SendSyncRequest64 returned error PortRemoteClosed.
+00:05:59.362 | ServiceNifm CreateRequest: Stubbed. version: 2
+00:05:59.478 | ServiceNifm SetConnectionConfirmationOption: Stubbed. 
+00:05:59.496 | ServiceNifm Submit: Stubbed. 
+00:05:59.503 | ServiceNifm GetRequestState: Stubbed. 
+00:05:59.510 | ServiceNifm GetResult: Stubbed. 
+00:06:04.191 | ServicePrepo ProcessReport: 
+PlayReport log:
+ UserId: 00000000000000010000000000000000
+ Room: save_event_flag_player
+ Report: {
+    "AppCmn": {
+        "VillageDaysCount": 0,
+        "GameRegion": 0,
+        "Language": "USen",
+        "WeatherArea": 0,
+        "LocalVid": 3779247279,
+        "LandName": "Meilleure",
+        "LandRuby": 2,
+        "LocalPid": 2190508618,
+        "PlayerName": "Player",
+        "POLID": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000000"
+        },
+        "POPID": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000000"
+        },
+        "Gender": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000000"
+        },
+        "IsLandMaker": 1,
+        "gc_recorded_at": "2020-04-26 17:51:27",
+        "LandPlayTime": 136,
+        "PlayerPlayTimeMain": 0,
+        "PlayerPlayTimeAll": 0
+    },
+    "SerialNumber": {
+        "TypeCode": 0,
+        "Value": "0x0000000000000023"
+    },
+    "UniqueID": {
+        "TypeCode": 0,
+        "Value": "0x000000000000020C"
+    },
+    "PreValue": 1,
+    "PostValue": 0,
+    "PlayerInfo": {
+        "CurHaveMoney": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000000"
+        },
+        "CurMilePoint": 0,
+        "HouseLevel": 1,
+        "HouseExtension": 0
+    }
+}
+
+00:06:05.994 | Emulation CurrentDomain_UnhandledException: Unhandled exception caught: Ryujinx.HLE.Exceptions.ServiceNotImplementedException: Ryujinx.HLE.HOS.Services.Bcat.ServiceCreator.IDeliveryCacheStorageService: 1
+
+Guest Stack Trace:
+Process: Application, PID: 81
+   sdk:0x0006f890 nn::sf::cmif::client::CmifDomainProxyClientCoreProcessor<nn::sf::hipc::client::Hipc2ClientSessionManagedProxyKindBase<nn::sf::hipc::client::Hipc2ProxyKindBase<(nn::sf::hipc::detail::MessageType)6> >, nn::sf::cmif::detail::CoreMethodInfo<std::__1::tuple<nn::sf::cmif::detail::OutObjectArgumentInfo<0, 0> >, 0ul, 0ul, false>, std::__1::tuple<nn::sf::cmif::detail::OutObjectArgumentInfo<0, 0> > >::ProcessWithOutObjects(nn::sf::cmif::client::CmifDomainClientMessage<nn::sf::hipc::client::Hipc2ClientSessionManagedProxyKindBase<nn::sf::hipc::client::Hipc2ProxyKindBase<(nn::sf::hipc::detail::MessageType)6> > >::ProxyBaseObject*, nn::sf::cmif::client::OutObjectClientArgumentType, unsigned int, nn::sf::SharedPointer<nn::sf::IServiceObject>*)
+   sdk:0x0018a0b8 nn::sf::cmif::client::detail::CmifProxyImpl<nn::bcat::detail::ipc::IDeliveryCacheStorageService, nn::sf::cmif::client::CmifDomainProxyKind<nn::sf::hipc::client::Hipc2ClientSessionManagedProxyKindBase<nn::sf::hipc::client::Hipc2ProxyKindBase<(nn::sf::hipc::detail::MessageType)6> > >, nn::sf::MemoryResourceAllocationPolicy, nn::bcat::detail::ipc::IDeliveryCacheStorageService, nn::sf::cmif::client::detail::ProcessModifierImpl<nn::sf::cmif::client::DefaultProxyFilterTag> >::_nn_sf_sync_CreateDirectoryService(nn::sf::Out<nn::sf::SharedPointer<nn::bcat::detail::ipc::IDeliveryCacheDirectoryService>, void>)
+   sdk:0x00187ae4 nn::bcat::detail::ShimLibraryGlobal::CreateDirectoryService(nn::bcat::detail::ipc::IDeliveryCacheDirectoryService**)
+   sdk:0x00186420 Sub000000000c517420
+   sdk:0x00186094 nn::bcat::DeliveryCacheDirectory::Open(nn::bcat::DirectoryName const&)
+   main:0x01d7c57c Sub0000000009d8057c
+   main:0x01d7c36c Sub0000000009d8036c
+   main:0x00bfd4ac Sub0000000008c014ac
+   main:0x00c6ddac Sub0000000008c71dac
+   main:0x00c6dd2c Sub0000000008c71d2c
+   main:0x0105df50 Sub0000000009061f50
+   main:0x0105cd3c Sub0000000009060d3c
+   main:0x00373754 Sub0000000008377754
+   main:0x02310bb0 Sub000000000a314bb0
+   main:0x02310044 Sub000000000a314044
+   main:0x02310a6c Sub000000000a314a6c
+   main:0x0230fae0 Sub000000000a313ae0
+   main:0x01ab0f44 Sub0000000009ab4f44
+   main:0x01ab0278 Sub0000000009ab4278
+   sdk:0x000cfb48 Sub000000000c460b48
+   sdk:0x000d4314 Sub000000000c465314
+   ??? Sub0000000000000000
+
+Raw Request Data:
+00000000   01 00 10 00 03 00 00 00  00 00 00 00 00 00 00 00   ················
+00000010   53 46 43 49 01 00 00 00  01 00 00 00 00 00 00 00   SFCI············
+00000020   03 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00   ················
+
+   at Ryujinx.HLE.HOS.Services.IpcService.CallMethod(ServiceCtx context) in C:\projects\ryujinx\Ryujinx.HLE\HOS\Services\IpcService.cs:line 95
+   at Ryujinx.HLE.HOS.Ipc.IpcHandler.IpcCall(Switch device, KProcess process, MemoryManager memory, KThread thread, KClientSession session, IpcMessage request, Int64 cmdPtr) in C:\projects\ryujinx\Ryujinx.HLE\HOS\Ipc\IpcHandler.cs:line 110
+   at Ryujinx.HLE.HOS.Kernel.SupervisorCall.SvcHandler.ProcessIpcRequest(Object state) in C:\projects\ryujinx\Ryujinx.HLE\HOS\Kernel\SupervisorCall\SvcIpc.cs:line 169
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+Unhandled exception. Ryujinx.HLE.Exceptions.ServiceNotImplementedException: Ryujinx.HLE.HOS.Services.Bcat.ServiceCreator.IDeliveryCacheStorageService: 1
+
+Guest Stack Trace:
+Process: Application, PID: 81
+   sdk:0x0006f890 nn::sf::cmif::client::CmifDomainProxyClientCoreProcessor<nn::sf::hipc::client::Hipc2ClientSessionManagedProxyKindBase<nn::sf::hipc::client::Hipc2ProxyKindBase<(nn::sf::hipc::detail::MessageType)6> >, nn::sf::cmif::detail::CoreMethodInfo<std::__1::tuple<nn::sf::cmif::detail::OutObjectArgumentInfo<0, 0> >, 0ul, 0ul, false>, std::__1::tuple<nn::sf::cmif::detail::OutObjectArgumentInfo<0, 0> > >::ProcessWithOutObjects(nn::sf::cmif::client::CmifDomainClientMessage<nn::sf::hipc::client::Hipc2ClientSessionManagedProxyKindBase<nn::sf::hipc::client::Hipc2ProxyKindBase<(nn::sf::hipc::detail::MessageType)6> > >::ProxyBaseObject*, nn::sf::cmif::client::OutObjectClientArgumentType, unsigned int, nn::sf::SharedPointer<nn::sf::IServiceObject>*)
+   sdk:0x0018a0b8 nn::sf::cmif::client::detail::CmifProxyImpl<nn::bcat::detail::ipc::IDeliveryCacheStorageService, nn::sf::cmif::client::CmifDomainProxyKind<nn::sf::hipc::client::Hipc2ClientSessionManagedProxyKindBase<nn::sf::hipc::client::Hipc2ProxyKindBase<(nn::sf::hipc::detail::MessageType)6> > >, nn::sf::MemoryResourceAllocationPolicy, nn::bcat::detail::ipc::IDeliveryCacheStorageService, nn::sf::cmif::client::detail::ProcessModifierImpl<nn::sf::cmif::client::DefaultProxyFilterTag> >::_nn_sf_sync_CreateDirectoryService(nn::sf::Out<nn::sf::SharedPointer<nn::bcat::detail::ipc::IDeliveryCacheDirectoryService>, void>)
+   sdk:0x00187ae4 nn::bcat::detail::ShimLibraryGlobal::CreateDirectoryService(nn::bcat::detail::ipc::IDeliveryCacheDirectoryService**)
+   sdk:0x00186420 Sub000000000c517420
+   sdk:0x00186094 nn::bcat::DeliveryCacheDirectory::Open(nn::bcat::DirectoryName const&)
+   main:0x01d7c57c Sub0000000009d8057c
+   main:0x01d7c36c Sub0000000009d8036c
+   main:0x00bfd4ac Sub0000000008c014ac
+   main:0x00c6ddac Sub0000000008c71dac
+   main:0x00c6dd2c Sub0000000008c71d2c
+   main:0x0105df50 Sub0000000009061f50
+   main:0x0105cd3c Sub0000000009060d3c
+   main:0x00373754 Sub0000000008377754
+   main:0x02310bb0 Sub000000000a314bb0
+   main:0x02310044 Sub000000000a314044
+   main:0x02310a6c Sub000000000a314a6c
+   main:0x0230fae0 Sub000000000a313ae0
+   main:0x01ab0f44 Sub0000000009ab4f44
+   main:0x01ab0278 Sub0000000009ab4278
+   sdk:0x000cfb48 Sub000000000c460b48
+   sdk:0x000d4314 Sub000000000c465314
+   ??? Sub0000000000000000
+
+Raw Request Data:
+00000000   01 00 10 00 03 00 00 00  00 00 00 00 00 00 00 00   ················
+00000010   53 46 43 49 01 00 00 00  01 00 00 00 00 00 00 00   SFCI············
+00000020   03 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00   ················
+
+   at Ryujinx.HLE.HOS.Services.IpcService.CallMethod(ServiceCtx context) in C:\projects\ryujinx\Ryujinx.HLE\HOS\Services\IpcService.cs:line 95
+   at Ryujinx.HLE.HOS.Ipc.IpcHandler.IpcCall(Switch device, KProcess process, MemoryManager memory, KThread thread, KClientSession session, IpcMessage request, Int64 cmdPtr) in C:\projects\ryujinx\Ryujinx.HLE\HOS\Ipc\IpcHandler.cs:line 110
+   at Ryujinx.HLE.HOS.Kernel.SupervisorCall.SvcHandler.ProcessIpcRequest(Object state) in C:\projects\ryujinx\Ryujinx.HLE\HOS\Kernel\SupervisorCall\SvcIpc.cs:line 169
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+/home/kona/bin/runonline: line 64: 327809 Aborted                 ./Ryujinx
+kona@arcticjieer:~$ 
